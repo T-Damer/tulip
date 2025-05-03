@@ -1,5 +1,10 @@
-import 'index.css'
-import { render } from 'preact'
 import App from 'App'
+import 'index.css'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter } from 'react-router'
 
-render(<App />, document.getElementById('root') as Element)
+createRoot(document.getElementById('root') as Element).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+)

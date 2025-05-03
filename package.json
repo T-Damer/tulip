@@ -1,7 +1,8 @@
 {
-  "name": "frontend-starter",
+  "name": "prtfl-io",
   "version": "1.0.0",
   "license": "MIT",
+  "homepage": "https://t-damer.github.io/prftl-io",
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -11,30 +12,32 @@
     "preview": "yarn build && yarn vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.8",
+    "@tailwindcss/vite": "^4.1.5",
+    "framer-motion": "^12.9.4",
     "jotai": "^2.12.1",
-    "preact": "^10.26.2"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.5.3"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.10.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/eslint-config-prettier": "^6.11.3",
     "@types/node": "^22.13.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
-    "daisyui": "^5.0.0-beta.8",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-tailwindcss": "^3.18.0",
-    "jiti": "^2.4.2",
     "prettier": "^3.5.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "rollup-plugin-visualizer": "^5.14.0",
-    "tailwindcss": "^4.0.8",
+    "tailwindcss": "^4.1.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1",
