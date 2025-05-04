@@ -564,6 +564,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jdion/tilt-react@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@jdion/tilt-react@npm:1.0.0"
+  peerDependencies:
+    "@types/react": ^18.0.29
+    "@types/react-dom": ^18.0.11
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/9d1f5e9e193f71b3188abbdba0ac13c29b21c3c86ba7470d651d19ae5eadab864b803e4f58a637ce5d1bf105dc6a4f9d694fd556395e67e647f96b40f170e0ac
+  languageName: node
+  linkType: hard
+
 "@jridgewell/gen-mapping@npm:^0.3.5":
   version: 0.3.8
   resolution: "@jridgewell/gen-mapping@npm:0.3.8"
@@ -1035,6 +1047,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/add@npm:^2":
+  version: 2.0.3
+  resolution: "@types/add@npm:2.0.3"
+  checksum: 10c0/d18841b43d3799f69db0bdae380d19d05f43b716315c5bfd4d6c1b3467bada2644eab8c04bb5afdb94bba87604da06d466f22fe30df6bcf0518c373593bb474a
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -1282,6 +1301,13 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 10c0/6d4ee461a7734b2f48836ee0fbb752903606e576cc100eb49340295129ca0b452f3ba91ddd4424a1d4406a98adfb2ebb6bd0ff4c49d7a0930c10e462719bbfd7
+  languageName: node
+  linkType: hard
+
+"add@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "add@npm:2.0.6"
+  checksum: 10c0/6b21d5f2e58cf5e15d56cc6f9ebce04f04f4c33ae25f09d600ddacf8df00036ba521f17feb1b3f81307b7c6d2ef0bed8b511a0f86f062eb90c2f909b48b588ae
   languageName: node
   linkType: hard
 
@@ -3113,6 +3139,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jquery@npm:^3.1.1":
+  version: 3.7.1
+  resolution: "jquery@npm:3.7.1"
+  checksum: 10c0/808cfbfb758438560224bf26e17fcd5afc7419170230c810dd11f5c1792e2263e2970cca8d659eb84fcd9acc301edb6d310096e450277d54be4f57071b0c82d9
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -3969,13 +4002,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prtfl-io@workspace:."
   dependencies:
+    "@jdion/tilt-react": "npm:^1.0.0"
     "@tailwindcss/typography": "npm:^0.5.16"
     "@tailwindcss/vite": "npm:^4.1.5"
+    "@types/add": "npm:^2"
     "@types/eslint-config-prettier": "npm:^6.11.3"
     "@types/node": "npm:^22.13.5"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
     "@vitejs/plugin-react": "npm:^4.3.4"
+    add: "npm:^2.0.6"
     autoprefixer: "npm:^10.4.20"
     cross-env: "npm:^7.0.3"
     eslint: "npm:^9.21.0"
@@ -3993,6 +4029,7 @@ __metadata:
     react-router: "npm:^7.5.3"
     rollup-plugin-visualizer: "npm:^5.14.0"
     tailwindcss: "npm:^4.1.5"
+    tilt.js: "npm:^1.2.1"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.7.3"
     typescript-eslint: "npm:^8.24.1"
@@ -4668,6 +4705,15 @@ __metadata:
     mkdirp: "npm:^3.0.1"
     yallist: "npm:^5.0.0"
   checksum: 10c0/d4679609bb2a9b48eeaf84632b6d844128d2412b95b6de07d53d8ee8baf4ca0857c9331dfa510390a0727b550fd543d4d1a10995ad86cdf078423fbb8d99831d
+  languageName: node
+  linkType: hard
+
+"tilt.js@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "tilt.js@npm:1.2.1"
+  dependencies:
+    jquery: "npm:^3.1.1"
+  checksum: 10c0/b15237012d977816b6284d399da7e43b04e3d438a3488ef1b3488ea47be27b9100472f4703a07ae3137668fab27c78cf46563af0a77ac54b4f666619d8b6c9de
   languageName: node
   linkType: hard
 

@@ -1,15 +1,23 @@
+import Signature from 'assets/icons/Signature'
+import dither from 'assets/img/dither.jpg'
+import HrText from 'components/HrText'
 import ProjectsCarousel from 'components/ProjectsCarousel'
 import TransitionWrapper from 'components/TransitionWrapper'
 
 export default function MainPage() {
   return (
     <TransitionWrapper>
-      <div className="flex flex-col gap-16 w-full h-full py-8 px-16">
+      <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-16">
         <div className="flex gap-8 items-center justify-between">
-          <img src="" className="w-96 h-96" />
+          <div className="relative">
+            <img
+              src={dither}
+              className="w-64 border-16 border-b-80 border-white"
+            />
+            <Signature className="absolute bottom-2 right-0 -rotate-15" />
+          </div>
           <div className="w-full">
-            <h1>bio</h1>
-            <hr />
+            <HrText>bio</HrText>
             <p>About me</p>
           </div>
         </div>

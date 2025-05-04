@@ -4,7 +4,7 @@ export default function Overlay() {
       <div className="bg-noise" />
       <img
         src="/img/bg-flowers.png"
-        className="absolute bottom-0 left-o opacity-10 pointer-events-none select-none"
+        className="windy-animation absolute bottom-0 left-o opacity-10 pointer-events-none select-none"
       />
       <div className="absolute bottom-0 left-2 sm:bottom-auto sm:left-auto sm:top-1.5 sm:right-8">
         <span>T-Damer</span>

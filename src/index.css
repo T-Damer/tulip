@@ -2,6 +2,8 @@
 
 @theme {
   --color-accent: #ffcc33;
+
+  --shadow-card: 0 0 15px 6px rgb(0 0 0 / 0.25);
 }
 
 * {
@@ -120,4 +122,15 @@ span {
     linear-gradient(20deg, black, transparent),
     url(https://grainy-gradients.vercel.app/noise.svg);
   filter: contrast(170%) brightness(1000%);
+}
+
+.windy-animation {
+  animation: windy-image 2s infinite alternate;
+  transform-origin: center bottom;
+}
+
+@keyframes windy-image {
+  to {
+    transform: skewX(-7deg);
+  }
 }
