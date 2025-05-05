@@ -85,14 +85,6 @@ body::before {
   }
 }
 
-.h-screen {
-  height: 100dvh;
-}
-
-.w-screen {
-  width: 100dvw;
-}
-
 span {
   text-decoration: underline wavy transparent;
 }

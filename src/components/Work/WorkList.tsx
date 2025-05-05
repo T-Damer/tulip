@@ -15,25 +15,27 @@ export default function WorkList({
   const s = search.trim().toLowerCase()
 
   return (
-    <div className="relative flex flex-col w-60 overflow-y-scroll border-r-2 pb-2">
+    <div className="flex flex-col w-60 border-r-2">
       <Search value={search} setValue={setSearch} />
-      {myWorks
-        .concat(myWorks)
-        .filter(
-          (work) =>
-            work.company?.title.toLowerCase().includes(s) ||
-            work.title.toLowerCase().includes(s) ||
-            work.description.toLowerCase().includes(s) ||
-            work.tags.find((tag) => tag.includes(s))
-        )
-        .map((props, index) => (
-          <WorkListEntry
-            {...props}
-            isSelected={selected === index}
-            setSelected={() => setSelected(index)}
-            key={props.title + index}
-          />
-        ))}
+      <div className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] sm:h-full">
+        {myWorks
+          .concat(myWorks)
+          .filter(
+            (work) =>
+              work.company?.title.toLowerCase().includes(s) ||
+              work.title.toLowerCase().includes(s) ||
+              work.description.toLowerCase().includes(s) ||
+              work.tags.find((tag) => tag.includes(s))
+          )
+          .map((props, index) => (
+            <WorkListEntry
+              {...props}
+              isSelected={selected === index}
+              setSelected={() => setSelected(index)}
+              key={props.title + index}
+            />
+          ))}
+      </div>
     </div>
   )
 }
