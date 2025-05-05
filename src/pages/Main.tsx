@@ -1,3 +1,4 @@
+import { Tilt } from '@jdion/tilt-react'
 import Signature from 'assets/icons/Signature'
 import dither from 'assets/img/dither.jpg'
 import HrText from 'components/HrText'
@@ -9,13 +10,15 @@ export default function MainPage() {
     <TransitionWrapper>
       <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-16">
         <div className="flex gap-8 items-center justify-between">
-          <div className="relative">
-            <img
-              src={dither}
-              className="w-64 border-16 border-b-80 border-white"
-            />
-            <Signature className="absolute bottom-2 right-0 -rotate-15" />
-          </div>
+          <Tilt>
+            <div className="relative">
+              <img
+                src={dither}
+                className="w-64 border-16 border-b-80 border-white"
+              />
+              <Signature className="absolute bottom-2 right-0 -rotate-15" />
+            </div>
+          </Tilt>
           <div className="w-full">
             <HrText>bio</HrText>
             <p>About me</p>

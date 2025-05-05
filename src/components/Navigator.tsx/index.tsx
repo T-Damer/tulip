@@ -1,4 +1,3 @@
-import { Tilt } from '@jdion/tilt-react'
 import RouteCard from './RouteCard'
 
 const routes = [
@@ -21,7 +20,7 @@ export default function Navigator() {
       {routes.map((props) => (
         <RouteCard key={props.text + props.href} {...props} />
       ))}
-      <Tilt className="flex flex-2 sm:flex-1 sm:w-full sm:h-full mix-blend-multiply noise-filter" />
+      <div className="flex flex-2 sm:flex-1 sm:w-full sm:h-full mix-blend-multiply noise-filter" />
     </nav>
   )
 }
