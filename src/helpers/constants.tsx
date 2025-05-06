@@ -1,5 +1,7 @@
 import GitHubIcon from 'assets/icons/GitHub'
 import BorodutchLogo from 'assets/img/BorodutchLogo.png'
+import BigWhaleLabsLogo from 'assets/img/bwlLogo.png'
+import dosuImages from 'assets/img/dosu'
 import { JSX } from 'react/jsx-runtime'
 
 export const links = {
@@ -8,7 +10,7 @@ export const links = {
   cv: 'https://github.com/user-attachments/files/20024025/Daniil.Pankov.CV.pdf',
 }
 
-export type Media = { url: string; title: string; description: string }
+export type Media = { url: string; title?: string; description?: string }
 export type Logo = { component: JSX.Element; altText: 'GitHub Logo' }
 
 export interface Work {
@@ -35,19 +37,29 @@ type Company = {
   link: string
 }
 
-console.log(BorodutchLogo)
-
 const companies = {
   borodutch: {
-    logo: <img src={BorodutchLogo} />,
+    logo: <img src={BorodutchLogo} className="w-6 h-6" />,
     title: 'Borodutch',
     link: 'https://borodutch.com',
   },
-  bigWhaleLabs: { logo: '', title: 'Big Whale Labs', link: 'https://bwl.gg' },
-  neged: { logo: '', title: 'negeD', link: 'https://warpcast.com/neged' },
-  scalr: { logo: '', title: 'Scalr', link: 'https://x.com/scalr_dex' },
+  bigWhaleLabs: {
+    logo: <img src={BigWhaleLabsLogo} className="w-6 h-6 rounded-full" />,
+    title: 'Big Whale Labs',
+    link: 'https://bwl.gg',
+  },
+  neged: {
+    logo: <img src={BorodutchLogo} />,
+    title: 'negeD',
+    link: 'https://warpcast.com/neged',
+  },
+  scalr: {
+    logo: <img src={BorodutchLogo} />,
+    title: 'Scalr',
+    link: 'https://x.com/scalr_dex',
+  },
   fluenceLabs: {
-    logo: '',
+    logo: <img src={BorodutchLogo} />,
     title: 'Fluence',
     link: 'https://console.fluence.network',
   },
@@ -60,8 +72,9 @@ const logos = {
 export const myWorks: Work[] = [
   {
     title: 'Dosu',
-    description: 'Something about dosu',
-    media: [],
+    description: `dosu.io - a web3 social app with NFT invite system based on Merkle Trees 
+    You can see where users read in real-time`,
+    media: dosuImages,
     iFrameLink: 'https://dosu.io',
     links: [
       {

@@ -27,8 +27,12 @@ export default function WorkDetails({
 
       <footer className="flex w-full items-center justify-evenly">
         <div className="flex flex-col">
-          <LinkText href={company?.link}>
-            <img src={company?.logo} />
+          <LinkText
+            href={company?.link}
+            className="inline-flex items-center gap-x-1.5"
+            external
+          >
+            {company?.logo}
             {company?.title}
           </LinkText>
         </div>

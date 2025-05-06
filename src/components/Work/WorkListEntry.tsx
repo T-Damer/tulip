@@ -18,7 +18,9 @@ export default function WorkListEntry({
       onClick={setSelected}
     >
       <SmallHeader>{title}</SmallHeader>
-      <span className="font-light">{description}</span>
+      <span className="font-light text-sm line-clamp-3 leading-tight opacity-50">
+        {description}
+      </span>
       <div className="flex flex-wrap gap-1">
         {tags.map((tag) => (
           <Tag key={Math.random()}>{tag}</Tag>

@@ -19,7 +19,6 @@ export default function WorkList({
       <Search value={search} setValue={setSearch} />
       <div className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] sm:h-full">
         {myWorks
-          .concat(myWorks)
           .filter(
             (work) =>
               work.company?.title.toLowerCase().includes(s) ||
