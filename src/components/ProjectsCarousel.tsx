@@ -1,3 +1,10 @@
+import { myWorks } from 'helpers/constants'
+import ImageAccordion from './ImageAccordion'
+
 export default function ProjectsCarousel() {
-  return <div></div>
+  const media = myWorks.map((work) => ({
+    url: work.hoverImage,
+  }))
+
+  return <ImageAccordion items={media} />
 }

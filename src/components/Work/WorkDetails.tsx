@@ -5,14 +5,10 @@ import { Work } from 'helpers/constants'
 
 export default function WorkDetails({
   title,
-  dateFrom,
   description,
-  iFrameLink,
   links,
   media,
-  tags,
   company,
-  dateTo,
 }: Work) {
   return (
     <article className="flex flex-col w-full items-center p-4">
@@ -22,7 +18,9 @@ export default function WorkDetails({
       </div>
       <div className="h-full sm:w-2/3 w-full">
         <HrText>desc</HrText>
-        <div className="rounded-md p-2">{description}</div>
+        <div className="relative rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
+          {description}
+        </div>
       </div>
 
       <footer className="flex w-full items-center justify-evenly">

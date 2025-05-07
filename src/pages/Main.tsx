@@ -8,7 +8,7 @@ import TransitionWrapper from 'components/TransitionWrapper'
 export default function MainPage() {
   return (
     <TransitionWrapper>
-      <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-16">
+      <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-44">
         <div className="flex gap-8 items-center justify-between">
           <Tilt>
             <div className="relative">
@@ -21,7 +21,16 @@ export default function MainPage() {
           </Tilt>
           <div className="w-full">
             <HrText>bio</HrText>
-            <p>About me</p>
+            <p>
+              Innovative Full Stack Web3 Developer driving impactful blockchain
+              solutions. Proficient in crafting dynamic Web3 applications. Adept
+              at developing responsive user interfaces and robust backends,
+              ensuring seamless functionality across all platforms. Committed to
+              leveraging blockchain to create engaging experiences and enhance
+              user interaction in decentralized applications. Ready to
+              contribute technical prowess and a passion for emerging
+              technologies to a forward-thinking blockchain team
+            </p>
           </div>
         </div>
 

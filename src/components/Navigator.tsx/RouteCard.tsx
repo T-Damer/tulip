@@ -20,7 +20,7 @@ export default function RouteCard({
       }
       viewTransition
     >
-      {text}
+      <span className="-rotate-45">{text}</span>
     </NavLink>
   )
 }
