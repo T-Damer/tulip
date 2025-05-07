@@ -2,7 +2,7 @@
   "name": "prtfl-io",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://t-damer.github.io/prtfl-io/",
+  "homepage": "https://t-damer.github.io/prtfl-io",
   "type": "module",
   "scripts": {
     "start": "vite",
