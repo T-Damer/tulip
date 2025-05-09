@@ -26,7 +26,10 @@ export default function RouteCard({
       viewTransition
     >
       <span className="-rotate-45">
-        {workDetailsPage ? 'To projects' : text}
+        <span className="hidden md:block">{text}</span>
+        <span className="block md:hidden">
+          {workDetailsPage ? 'To projects' : text}
+        </span>
       </span>
     </NavLink>
   )

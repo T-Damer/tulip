@@ -1,3 +1,4 @@
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { myWorks } from 'helpers/constants'
 import { useState } from 'react'
 import Search from './Search'
@@ -10,6 +11,7 @@ export default function WorkList({
   selected: number
   setSelected: (newWork: number) => void
 }) {
+  const [parent] = useAutoAnimate({ disrespectUserMotionPreference: true })
   const [search, setSearch] = useState('')
 
   const s = search.trim().toLowerCase()
@@ -18,12 +20,15 @@ export default function WorkList({
   return (
     <div
       className={[
-        'flex-col w-full md:w-60 md:border-r-2',
+        'flex-col w-full md:w-60 md:min-w-60 md:border-r-2',
         selectedWork ? 'hidden sm:flex' : '',
       ].join(' ')}
     >
       <Search value={search} setValue={setSearch} />
-      <div className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] md:h-full">
+      <div
+        className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] md:h-full"
+        ref={parent}
+      >
         {myWorks
           .filter(
             (work) =>
