@@ -10,7 +10,7 @@ export default function AnimatedRoutes() {
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<MainPage />} />
       <Route path="profile" element={<ProfilePage />} />
-      <Route path="work" element={<WorkPage />} />
+      <Route path="work/:id?" element={<WorkPage />} />
     </Routes>
   )
 }

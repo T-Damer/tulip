@@ -23,7 +23,7 @@ export default function WorkDetails({
         </div>
       </div>
 
-      <footer className="flex w-full items-center justify-evenly">
+      <footer className="flex w-full items-center justify-between sm:justify-evenly">
         <div className="flex flex-col">
           <LinkText
             href={company?.link}

@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router'
+import { NavLink, useLocation } from 'react-router'
 
 export default function RouteCard({
   href,
@@ -8,6 +8,11 @@ export default function RouteCard({
   text: string
   icon?: string
 }) {
+  const location = useLocation()
+  const workDetailsPage =
+    href === '/work' &&
+    !isNaN(location.pathname.split('/')[2]?.search(/[0-9]+/))
+
   return (
     <NavLink
       to={href}
@@ -20,7 +25,9 @@ export default function RouteCard({
       }
       viewTransition
     >
-      <span className="-rotate-45">{text}</span>
+      <span className="-rotate-45">
+        {workDetailsPage ? 'To projects' : text}
+      </span>
     </NavLink>
   )
 }

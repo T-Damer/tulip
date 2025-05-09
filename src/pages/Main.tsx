@@ -9,12 +9,12 @@ export default function MainPage() {
   return (
     <TransitionWrapper>
       <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-44">
-        <div className="flex gap-8 items-center justify-between">
-          <Tilt>
+        <div className="flex-col sm:flex gap-8 items-center justify-between">
+          <Tilt className="flex items-center justify-center">
             <div className="relative">
               <img
                 src={dither}
-                className="w-64 border-16 border-b-80 border-white"
+                className="w-40 sm:w-64 border-16 border-b-80 border-white"
               />
               <Signature className="absolute bottom-2 right-0 -rotate-15" />
             </div>

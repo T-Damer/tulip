@@ -13,11 +13,17 @@ export default function WorkList({
   const [search, setSearch] = useState('')
 
   const s = search.trim().toLowerCase()
+  const selectedWork = selected >= 0
 
   return (
-    <div className="flex flex-col w-60 border-r-2">
+    <div
+      className={[
+        'flex-col w-full md:w-60 md:border-r-2',
+        selectedWork ? 'hidden sm:flex' : '',
+      ].join(' ')}
+    >
       <Search value={search} setValue={setSearch} />
-      <div className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] sm:h-full">
+      <div className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] md:h-full">
         {myWorks
           .filter(
             (work) =>
