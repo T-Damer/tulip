@@ -18,7 +18,7 @@ export default function WorkDetails({
         <ImageScroll items={media} />
       </div>
       <div className="flex h-full w-full border-b-2">
-        <p className="[writing-mode:sideways-lr] text-center uppercase font-light text-3xl border-r-2 py-2">
+        <p className="[writing-mode:sideways-lr] text-center font-light text-xl border-r-2 py-2">
           desc
         </p>
         <div className="rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
