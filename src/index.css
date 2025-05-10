@@ -31,22 +31,76 @@ body::before {
   z-index: 0;
 }
 
-.bg-noise {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200dvw;
-  height: 200dvh;
-  background: transparent url('/img/noise.png') repeat 0 0;
-  background-repeat: repeat;
-  background-size: 250px 250px;
-  /* animation: bg-animation 0.55 s infinite; */
-  opacity: 0.9;
-  visibility: visible;
-  will-change: transform;
-  pointer-events: none;
+@layer utilities {
+  .bg-noise {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200dvw;
+    height: 200dvh;
+    background: transparent url('/img/noise.png') repeat 0 0;
+    background-repeat: repeat;
+    background-size: 250px 250px;
+    /* animation: bg-animation 0.55 s infinite; */
+    opacity: 0.9;
+    visibility: visible;
+    will-change: transform;
+    pointer-events: none;
+  }
+
+  .bg-stripes {
+    background: repeating-linear-gradient(
+      45deg,
+      transparent 0px,
+      transparent 20px,
+      #00000050 20px,
+      #00000050 40px
+    );
+  }
+
+  .bg-isometric {
+    background-image: radial-gradient(black 2px, transparent 2px);
+    background-size: 13px 13px;
+  }
+
+  .noise-filter {
+    height: 100%;
+    background:
+      linear-gradient(20deg, black, transparent),
+      url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(170%) brightness(1000%);
+  }
+
+  .windy-animation {
+    animation: windy-image 2s infinite alternate;
+    transform-origin: center bottom;
+  }
+}
+
+span {
+  text-decoration: underline wavy transparent;
+}
+
+::selection {
+  text-decoration: underline wavy var(--color-accent);
+  color: var(--color-accent);
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  width: 0 !important;
+  background: none !important;
+}
+
+@keyframes windy-image {
+  to {
+    transform: skewX(-7deg);
+  }
 }
 
 @keyframes bg-animation {
@@ -85,44 +139,6 @@ body::before {
   }
 }
 
-span {
-  text-decoration: underline wavy transparent;
-}
-
-::selection {
-  text-decoration: underline wavy var(--color-accent);
-  color: var(--color-accent);
-  background: transparent;
-}
-
-::-webkit-scrollbar {
-  display: none !important;
-  -ms-overflow-style: none !important;
-  scrollbar-width: none !important;
-  width: 0 !important;
-  background: none !important;
-}
-
-.bg-isometric {
-  background-image: radial-gradient(black 2px, transparent 2px);
-  background-size: 13px 13px;
-}
-
-.noise-filter {
-  height: 100%;
-  background:
-    linear-gradient(20deg, black, transparent),
-    url(https://grainy-gradients.vercel.app/noise.svg);
-  filter: contrast(170%) brightness(1000%);
-}
-
-.windy-animation {
-  animation: windy-image 2s infinite alternate;
-  transform-origin: center bottom;
-}
-
-@keyframes windy-image {
-  to {
-    transform: skewX(-7deg);
-  }
+div[data-rmiz-modal-overlay='visible'] {
+  background-color: black !important;
 }

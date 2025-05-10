@@ -1,5 +1,4 @@
-import HrText from 'components/HrText'
-import ImageAccordion from 'components/ImageAccordion'
+import ImageScroll from 'components/ImageScroll'
 import { LinkText, SmallHeader } from 'components/Text'
 import { Work } from 'helpers/constants'
 
@@ -11,19 +10,23 @@ export default function WorkDetails({
   company,
 }: Work) {
   return (
-    <article className="flex flex-col w-full items-center p-4">
-      <SmallHeader className="text-center w-full">{title}</SmallHeader>
-      <div className="flex w-full justify-center">
-        <ImageAccordion items={media} />
+    <article className="flex flex-col w-full items-center">
+      <SmallHeader className="text-center w-full border-b-2 py-2">
+        {title}
+      </SmallHeader>
+      <div className="flex w-full justify-center border-b-2">
+        <ImageScroll items={media} />
       </div>
-      <div className="h-full sm:w-2/3 w-full">
-        <HrText>desc</HrText>
-        <div className="relative rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
+      <div className="flex h-full w-full border-b-2">
+        <p className="[writing-mode:sideways-lr] text-center uppercase font-light text-3xl border-r-2 py-2">
+          desc
+        </p>
+        <div className="rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
           {description}
         </div>
       </div>
 
-      <footer className="flex w-full items-center justify-between sm:justify-evenly">
+      <footer className="flex w-full items-center justify-around sm:justify-evenly">
         <div className="flex flex-col">
           <LinkText
             href={company?.link}
