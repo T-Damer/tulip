@@ -2,7 +2,7 @@ import { Media } from 'helpers/constants'
 
 export default function ImageAccordion({ items }: { items: Media[] }) {
   return (
-    <div className="hidden group md:flex max-md:flex-col justify-center gap-2 w-4/5 mx-auto mb-10 mt-3">
+    <div className="hidden group md:flex max-h-96 max-md:flex-col justify-center gap-2 w-4/5 mx-auto mb-10 mt-3">
       {items.map((item) => (
         <article
           key={item.url}
@@ -12,15 +12,15 @@ export default function ImageAccordion({ items }: { items: Media[] }) {
             className="absolute inset-0 text-white z-10  p-3 flex flex-col justify-end"
             href="#"
           >
-            <h1 className="text-3xl font-medium md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">
+            <h1 className="text-3xl drop-shadow-sm font-medium md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300">
               {item?.title}
             </h1>
-            <span className="text-xl leading-tight md:line-clamp-2 md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-500 group-focus-within/article:delay-500">
+            <span className="text-xl drop-shadow-sm leading-tight md:line-clamp-2 md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-500 group-focus-within/article:delay-500">
               {item?.description}
             </span>
           </a>
           <img
-            className="object-fit align-center h-fit w-full"
+            className="object-cover align-center max-h-96 h-fit w-full"
             src={item?.url}
             width="960"
             height="480"
