@@ -11,10 +11,10 @@ export default function WorkDetails({
 }: Work) {
   return (
     <article className="flex flex-col w-full items-center">
-      <SmallHeader className="text-center w-full border-b-2 py-2">
-        {title}
-      </SmallHeader>
-      <div className="flex w-full justify-center border-b-2">
+      <div className="isolate relative flex w-full justify-center border-b-2">
+        <SmallHeader className="top-2 text-center absolute bg-white text-black px-4 rounded-full mix-blend-difference">
+          {title}
+        </SmallHeader>
         <ImageScroll items={media} />
       </div>
       <div className="flex h-full w-full border-b-2">
@@ -26,7 +26,7 @@ export default function WorkDetails({
         </div>
       </div>
 
-      <footer className="flex w-full items-center justify-around sm:justify-evenly">
+      <footer className="flex w-full items-center justify-around sm:justify-evenly py-1">
         <div className="flex flex-col">
           <LinkText
             href={company?.link}
