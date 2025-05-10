@@ -77,7 +77,7 @@ const logos = {
 export const myWorks: Work[] = [
   {
     title: 'Dosu',
-    description: `dosu.io - a web3 social app with NFT invite system based on Merkle Trees. 
+    description: `A web3 social app with NFT invite system based on Merkle Trees. 
 You can see where users read in real-time
 
 I was a solo developer, CTO reviewed my code from time to time.
