@@ -51,6 +51,10 @@ body::before {
     pointer-events: none;
   }
 
+  .writing-sideways-lr {
+    writing-mode: sideways-lr;
+  }
+
   .bg-stripes {
     background: repeating-linear-gradient(
       45deg,

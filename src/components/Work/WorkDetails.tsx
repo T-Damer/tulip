@@ -1,5 +1,5 @@
 import ImageScroll from 'components/ImageScroll'
-import { LinkText, SmallHeader } from 'components/Text'
+import { LinkText } from 'components/Text'
 import { Work } from 'helpers/constants'
 
 export default function WorkDetails({
@@ -12,14 +12,11 @@ export default function WorkDetails({
   return (
     <article className="flex flex-col w-full items-center">
       <div className="isolate relative flex w-full justify-center border-b-2">
-        <SmallHeader className="top-2 text-center absolute bg-white text-black px-4 rounded-full mix-blend-difference">
-          {title}
-        </SmallHeader>
         <ImageScroll items={media} />
       </div>
       <div className="flex h-full w-full border-b-2">
-        <p className="[writing-mode:sideways-lr] text-center font-serif font-light text-xl border-r-2 py-2">
-          desc
+        <p className="writing-sideways-lr text-center font-serif font-light text-xl border-r-2 py-2">
+          {title}
         </p>
         <div className="rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
           {description}
