@@ -80,8 +80,17 @@ export const myWorks: Work[] = [
     description: `A web3 social app with NFT invite system based on Merkle Trees. 
 You can see where users read in real-time
 
-I was a solo developer, CTO reviewed my code from time to time.
-I build `,
+I was a solo developer, CTO reviewed my code from time to time
+I built both backend and frontend parts using MERN stack
+
+Later we built invites system for future projects on top of that - dosu-invites
+We generated a set of 512 AI images (imagine doing this in 2021)
+Each image was stored in IPFS system, I hosted an IPFS node to do this
+Because there were no IPFS providers or they were unreliable
+
+Invites were stored in Merkle Tree - you could claim it and get an NFT from a set of 512 images
+Each image was bound to ETH address. More images were claimed - more frames of the videos were shown
+You could open invites.dosu.io/112 to see the frame and the owner`,
     hoverImage: dosuInvites,
     media: dosuImages,
     iFrameLink: 'https://dosu.io',

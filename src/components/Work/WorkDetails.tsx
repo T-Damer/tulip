@@ -10,16 +10,14 @@ export default function WorkDetails({
   company,
 }: Work) {
   return (
-    <article className="flex flex-col w-full items-center">
-      <div className="isolate relative flex w-full justify-center border-b-2">
-        <ImageScroll items={media} />
-      </div>
-      <div className="flex h-full w-full border-b-2">
-        <p className="writing-sideways-lr text-center font-serif font-light text-xl border-r-2 py-2">
+    <article className="flex flex-col w-full">
+      <ImageScroll items={media} />
+      <div className="flex flex-3 w-full border-b-2 overflow-auto">
+        <span className="writing-sideways-lr text-center font-serif font-light text-xl border-r-2 py-2">
           {title}
-        </p>
-        <div className="rounded-md p-2 max-h-64 overflow-y-scroll whitespace-pre-wrap">
-          {description}
+        </span>
+        <div className="overflow-y-scroll ">
+          <p className="p-2 whitespace-pre-wrap">{description}</p>
         </div>
       </div>
 

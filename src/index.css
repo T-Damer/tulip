@@ -59,9 +59,9 @@ body::before {
     background: repeating-linear-gradient(
       45deg,
       transparent 0px,
-      transparent 20px,
-      #00000050 20px,
-      #00000050 40px
+      transparent 2px,
+      #00000050 2px,
+      #00000050 3px
     );
   }
 
