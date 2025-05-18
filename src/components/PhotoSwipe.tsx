@@ -19,6 +19,7 @@ export default function PhotoSwipe({ items }: { items: Media[] }) {
           maxZoomLevel: 'fill',
           doubleTapAction: 'zoom',
           bgClickAction: 'close',
+          wheelToZoom: true,
         }}
       >
         {items.map((item) => (
