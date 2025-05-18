@@ -8,15 +8,15 @@ import TransitionWrapper from 'components/TransitionWrapper'
 export default function MainPage() {
   return (
     <TransitionWrapper>
-      <div className="flex flex-col gap-16 w-full h-full p-4 sm:py-8 sm:px-44 items-center justify-center">
-        <div className="flex flex-col sm:flex-row gap-8 items-center justify-between ">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-16 overflow-y-scroll p-4 sm:px-44 sm:py-8">
+        <div className="mt-32 flex flex-col items-center justify-between gap-8 overflow-auto sm:flex-row xl:mt-0">
           <Tilt className="flex items-center justify-center">
             <div className="relative">
               <img
                 src={dither}
-                className="w-40 sm:w-64 border-16 border-b-80 border-white"
+                className="w-40 border-16 border-b-80 border-white sm:w-64"
               />
-              <Signature className="absolute bottom-2 right-0 -rotate-15" />
+              <Signature className="absolute right-0 bottom-2 -rotate-15" />
             </div>
           </Tilt>
           <div className="w-full">

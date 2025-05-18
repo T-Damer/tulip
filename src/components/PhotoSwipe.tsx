@@ -5,7 +5,7 @@ import { Gallery, Item } from 'react-photoswipe-gallery'
 export default function PhotoSwipe({ items }: { items: Media[] }) {
   return (
     <div
-      className="mt-32 flex h-fit snap-x snap-mandatory flex-row overflow-x-scroll border-b-2 sm:mt-0 xl:h-full xl:w-3/4 xl:snap-y xl:flex-col xl:overflow-y-scroll xl:border-b-0 xl:border-l-2"
+      className="mt-32 flex h-fit snap-x flex-row overflow-x-scroll border-b-2 sm:mt-0 xl:h-full xl:w-3/4 xl:snap-y xl:flex-col xl:overflow-y-scroll xl:border-b-0 xl:border-l-2"
       onWheel={(ev) => {
         ev.currentTarget.scrollBy(ev.deltaY, 0)
       }}
