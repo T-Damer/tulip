@@ -1,4 +1,4 @@
-import ImageScroll from 'components/ImageScroll'
+import PhotoSwipe from 'components/PhotoSwipe'
 import { LinkText } from 'components/Text'
 import { Work } from 'helpers/constants'
 
@@ -11,7 +11,7 @@ export default function WorkDetails({
 }: Work) {
   return (
     <article className="flex flex-col w-full">
-      <ImageScroll items={media} />
+      <PhotoSwipe items={media} />
       <div className="flex flex-3 w-full border-b-2 overflow-auto">
         <span className="writing-sideways-lr text-center font-serif font-light text-xl border-r-2 py-2">
           {title}

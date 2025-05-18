@@ -5,10 +5,10 @@ const routes = [
     href: '/',
     text: 'Main',
   },
-  {
-    href: '/profile',
-    text: 'Profile',
-  },
+  // {
+  //   href: '/profile',
+  //   text: 'Profile',
+  // },
   {
     href: '/work',
     text: 'Work',
