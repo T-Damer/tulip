@@ -21,7 +21,13 @@ export default function WorkPage() {
   return (
     <div className="flex w-full h-full">
       <WorkList selected={selected} setSelected={onWorkClick} />
-      {selected >= 0 ? <WorkDetails {...myWorks[selected]} /> : null}
+      {selected >= 0 ? (
+        <WorkDetails {...myWorks[selected]} />
+      ) : (
+        <div className="flex w-full h-full items-center justify-center">
+          <span>Select work to display</span>
+        </div>
+      )}
     </div>
   )
 }
