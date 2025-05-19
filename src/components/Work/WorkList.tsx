@@ -20,13 +20,13 @@ export default function WorkList({
   return (
     <div
       className={[
-        'flex-col w-full md:w-60 md:min-w-60 md:border-r-2',
-        selectedWork ? 'hidden sm:flex' : '',
+        'w-full flex-col md:w-60 md:min-w-60 md:border-r-2',
+        selectedWork ? 'hidden md:flex' : '',
       ].join(' ')}
     >
       <Search value={search} setValue={setSearch} />
       <div
-        className="overflow-y-scroll mb-2 h-[calc(100dvh_-_210px)] md:h-full"
+        className="mb-2 h-[calc(100dvh_-_210px)] overflow-y-scroll md:h-full"
         ref={parent}
       >
         {myWorks

@@ -10,16 +10,16 @@ export default function WorkDetails({
   company,
 }: Work) {
   return (
-    <article className="flex w-full flex-col xl:flex-row-reverse">
+    <article className="flex h-full w-full flex-col xl:flex-row-reverse">
       <PhotoSwipe items={media} />
-      <div className="flex w-full flex-col overflow-auto">
-        <div className="flex w-full flex-3 overflow-auto border-b-2">
+      <div className="flex h-full w-full flex-col overflow-auto">
+        <div className="flex h-full w-full flex-3 overflow-auto border-b-2">
           <span className="writing-sideways-lr border-r-2 py-2 text-center font-serif text-xl font-light">
             {title}
           </span>
-          <div className="flex items-center justify-center overflow-y-scroll">
-            <p className="p-2 whitespace-pre-wrap">{description}</p>
-          </div>
+          <p className="overflow-y-scroll p-2 whitespace-pre-wrap">
+            {description}
+          </p>
         </div>
 
         <footer className="flex w-full items-center justify-around py-1 sm:justify-evenly">
