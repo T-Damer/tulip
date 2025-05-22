@@ -44,27 +44,27 @@ type Company = {
 
 const companies = {
   borodutch: {
-    logo: <img src={BorodutchLogo} className="w-4 h-4 drop-shadow-sm" />,
+    logo: <img src={BorodutchLogo} className="h-4 w-4 drop-shadow-sm" />,
     title: 'Borodutch',
     link: 'https://borodutch.com',
   },
   bigWhaleLabs: {
-    logo: <img src={BigWhaleLabsLogo} className="w-4 h-4" />,
+    logo: <img src={BigWhaleLabsLogo} className="h-4 w-4" />,
     title: 'Big Whale Labs',
     link: 'https://bwl.gg',
   },
   neged: {
-    logo: <img src={NegedLogo} className="w-4 h-4" />,
+    logo: <img src={NegedLogo} className="h-4 w-4" />,
     title: 'negeD',
     link: 'https://warpcast.com/neged',
   },
   scalr: {
-    logo: <img src={ScalrLogo} className="w-4 h-4" />,
+    logo: <img src={ScalrLogo} className="h-4 w-4" />,
     title: 'Scalr',
     link: 'https://x.com/scalr_dex',
   },
   fluenceLabs: {
-    logo: <img src={FluenceLogo} className="w-4 h-4" />,
+    logo: <img src={FluenceLogo} className="h-4 w-4" />,
     title: 'Fluence',
     link: 'https://console.fluence.network',
   },

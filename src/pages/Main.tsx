@@ -9,15 +9,13 @@ export default function MainPage() {
   return (
     <TransitionWrapper>
       <div className="flex h-full w-full flex-col items-center justify-center gap-16 overflow-y-auto pb-4 md:py-8">
-        <div className="mt-32 flex flex-col items-center justify-between gap-8 overflow-y-auto p-2 sm:mt-8 md:flex-row xl:mt-0">
-          <Tilt className="flex items-center justify-center">
-            <div className="relative">
-              <img
-                src={dither}
-                className="w-40 border-16 border-b-80 border-white sm:w-64"
-              />
-              <Signature className="absolute right-0 bottom-2 -rotate-15" />
-            </div>
+        <div className="flex flex-col items-center justify-between gap-8 overflow-y-auto p-2 sm:mt-8 md:flex-row xl:mt-0">
+          <Tilt className="relative mt-2 flex items-center justify-center xl:m-4">
+            <img
+              src={dither}
+              className="w-40 border-16 border-b-80 border-white sm:w-64"
+            />
+            <Signature className="absolute right-0 bottom-2 -rotate-15" />
           </Tilt>
 
           <div className="w-full max-w-80 overflow-y-auto">
