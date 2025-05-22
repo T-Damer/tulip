@@ -3,6 +3,7 @@ import BorodutchLogo from 'assets/img/BorodutchLogo.png'
 import BigWhaleLabsLogo from 'assets/img/bwlLogo.png'
 import dosuImages, { dosuInvites } from 'assets/img/dosu'
 import FluenceLogo from 'assets/img/fluence/FluenceLogo.png'
+import { ketlCover, ketlImages } from 'assets/img/ketl'
 import NegedLogo from 'assets/img/neged/NegedLogo.png'
 import ScalrLogo from 'assets/img/scalr/ScalrLogo.jpg'
 import sealcredImages, { credCover } from 'assets/img/sealcred'
@@ -119,7 +120,6 @@ You could open invites.dosu.io/112 to see the frame and the owner`,
     I created pixel-perfect frontends for all projects, I managed user states and flows. I led development of adaptive and responsive UI
     On the backend I integrated wallet transaction through admin wallet to interact with our contracts and update Merkle proof data,
     I led and implemented custom position-based animations for the landing page
-    I worked on ketl.xyz — fully decentralized Twitter for founders. I used React-Native-Web with Expo. I made continuous integration by codepush updates and took responsibility for the app data in the App Store and Play Market. The frontend had a custom design, so I wrote everything by myself with fluent animations. I made infinite post feed and reddit-like comments section. I used AI services to generate pictures for users to keep them private. I also engineered random names generator with large dictionary. I implemented custom registration flow that involves YCombinator and Twitter API combined with ZK that runs directly on mobile phone
     `,
     hoverImage: credCover,
     media: sealcredImages,
@@ -160,21 +160,30 @@ You could open invites.dosu.io/112 to see the frame and the owner`,
     tags: ['full-stack', 'web3', 'MERN', 'ethers', 'solidity'],
   },
   {
-    title: 'sealcred.xyz',
-    description: 'Something about SC',
-    hoverImage: credCover,
-    media: [],
-    iFrameLink: 'https://sealcred.xyz',
-    links: [
-      {
-        href: 'https://github.com/BigWhaleLabs/seal-cred-frontend',
-        altText: 'SealCred Frontend GitHub',
-        logo: logos.github,
-      },
-    ],
-    dateFrom: new Date('01-09-2021'),
-    dateTo: new Date('31-12-2021'),
+    title: 'ketl',
+    description: `I worked on ketl.xyz — fully decentralized Twitter for founders. 
+I used React-Native-Web with Expo. 
+I made continuous integration by codepush updates and took responsibility for the app data in the App Store and Play Market. 
+The frontend had a custom design, so I wrote everything by myself with fluent animations. 
+I made infinite post feed and reddit-like comments section. I used AI services to generate pictures for users to keep them private. 
+I also engineered random names generator with large dictionary. 
+I implemented custom registration flow that involves YCombinator and Twitter API combined with ZK that runs directly on mobile phone`,
+
+    hoverImage: ketlCover,
+    media: ketlImages,
+    iFrameLink: 'https://ketl.xyz',
+    links: [],
+    dateFrom: new Date('01-01-2023'),
+    dateTo: new Date('01-01-2024'),
     company: companies.bigWhaleLabs,
-    tags: ['full-stack', 'web3', 'MERN', 'ethers', 'solidity'],
+    tags: [
+      'full-stack',
+      'web3',
+      'react-native',
+      'viem',
+      'solidity',
+      'ZK',
+      'expo',
+    ],
   },
 ]

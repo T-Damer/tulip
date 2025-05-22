@@ -13,12 +13,12 @@ export default function WorkListEntry({
     <div
       className={[
         isSelected ? 'bg-black text-white' : '',
-        'flex flex-col gap-y-1 border-b-2 cursor-pointer p-2',
+        'flex cursor-pointer flex-col gap-y-1 border-b-2 p-2',
       ].join(' ')}
       onClick={setSelected}
     >
       <SmallHeader>{title}</SmallHeader>
-      <span className="font-light text-sm line-clamp-3 leading-tight opacity-50">
+      <span className="line-clamp-3 text-sm leading-tight font-light opacity-50">
         {description}
       </span>
       <div className="flex flex-wrap gap-1">

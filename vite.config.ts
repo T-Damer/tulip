@@ -1,11 +1,21 @@
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
+import { componentTagger } from 'lovable-tagger'
 import { visualizer } from 'rollup-plugin-visualizer'
 import { defineConfig, Plugin } from 'vite'
+import svgr from 'vite-plugin-svgr'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
+const isDev = process.env.NODE_ENV === 'development'
+
 export default defineConfig({
-  plugins: [react(), tsconfigPaths(), tailwindcss()],
+  plugins: [
+    react(),
+    tsconfigPaths(),
+    tailwindcss(),
+    svgr(),
+    isDev && componentTagger(),
+  ],
   base: '/prtfl-io/',
   build: {
     rollupOptions: {

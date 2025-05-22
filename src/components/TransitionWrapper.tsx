@@ -4,7 +4,7 @@ import { PropsWithChildren } from 'react'
 export default function TransitionWrapper({ children }: PropsWithChildren) {
   return (
     <motion.div
-      className="w-full h-full"
+      className="h-full w-full"
       initial={{ height: '25%' }}
       animate={{ height: '100%' }}
     >

@@ -20,7 +20,7 @@ export default function RouteCard({
         [
           isActive ? 'bg-black text-white' : '',
           isActive ? 'flex-3' : 'flex-1',
-          'flex flex-col w-full h-32 sm:h-auto transition-all items-center justify-center gap-1 p-2 border-r-2 sm:border-r-0 sm:border-b-2 border-black active:bg-accent',
+          'active:bg-accent flex h-32 w-full flex-col items-center justify-center gap-1 border-r-2 border-black p-2 transition-all sm:h-auto sm:border-r-0 sm:border-b-2',
         ].join(' ')
       }
       viewTransition

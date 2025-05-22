@@ -1,6 +1,7 @@
 import PhotoSwipe from 'components/PhotoSwipe'
 import { LinkText } from 'components/Text'
 import { Work } from 'helpers/constants'
+import parseUrls from 'helpers/parseUrls'
 
 export default function WorkDetails({
   title,
@@ -18,7 +19,7 @@ export default function WorkDetails({
             {title}
           </span>
           <p className="overflow-y-scroll p-2 whitespace-pre-wrap">
-            {description}
+            {parseUrls(description)}
           </p>
         </div>
 

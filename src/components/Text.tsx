@@ -19,7 +19,7 @@ export function LinkText({
     <a
       className={
         className +
-        ' hover:text-gray-600 hover:underline decoration-wavy transition-all'
+        ' decoration-wavy transition-all hover:text-gray-600 hover:underline'
       }
       href={href}
       target={external ? 'blank' : '_self'}

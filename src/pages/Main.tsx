@@ -12,6 +12,8 @@ export default function MainPage() {
         <div className="flex flex-col items-center justify-between gap-8 overflow-y-auto p-2 sm:mt-8 md:flex-row xl:mt-0">
           <Tilt className="relative mt-2 flex items-center justify-center xl:m-4">
             <img
+              title="Daniil"
+              alt="Daniil"
               src={dither}
               className="w-40 border-16 border-b-80 border-white sm:w-64"
             />
