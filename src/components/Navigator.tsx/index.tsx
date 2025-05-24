@@ -18,6 +18,10 @@ const routes = [
 ]
 
 const coolBox = [
+  <div
+    className="noise-filter min-h-32 min-w-32 mix-blend-multiply"
+    key="noisy-cool"
+  />,
   <img
     src="./img/love-death-robots.gif"
     alt="love-death-robots-gif"
@@ -61,10 +65,6 @@ const coolBox = [
     height="200px"
     key="girl-cool"
     fetchPriority="low"
-  />,
-  <div
-    className="noise-filter min-h-32 min-w-32 mix-blend-multiply"
-    key="noisy-cool"
   />,
 ]
 
