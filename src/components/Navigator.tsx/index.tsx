@@ -50,13 +50,13 @@ const coolBox = [
     className="grayscale-100"
   />,
   <img
-    src="./img/player.png"
+    src="./img/player.gif"
     alt="eva-player"
     width="200px"
     height="200px"
     key="player-cool"
     fetchPriority="low"
-    className="grayscale-100"
+    className="object-cover grayscale-100"
   />,
   <img
     src="./img/girl.png"
