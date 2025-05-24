@@ -10,7 +10,9 @@ export default function SocialLinks() {
       <LinkText href={links.linkedIn} external>
         LinkedIn
       </LinkText>
-      <LinkText href={links.cv}>CV</LinkText>
+      <LinkText href={links.cv} external>
+        CV
+      </LinkText>
     </div>
   )
 }

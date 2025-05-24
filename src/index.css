@@ -32,6 +32,17 @@ body::before {
   z-index: 0;
 }
 
+a:hover {
+  background: var(--color-selection);
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+a[target='_blank']:after {
+  content: ' ↗';
+}
+
 @layer utilities {
   .bg-noise {
     position: fixed;

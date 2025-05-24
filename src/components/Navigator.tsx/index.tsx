@@ -1,3 +1,5 @@
+import { useAutoAnimate } from '@formkit/auto-animate/react'
+import { useCallback, useState } from 'react'
 import RouteCard from './RouteCard'
 
 const routes = [
@@ -14,13 +16,78 @@ const routes = [
     text: 'Work',
   },
 ]
+
+const coolBox = [
+  <img
+    src="./img/love-death-robots.gif"
+    alt="love-death-robots-gif"
+    width="200px"
+    height="200px"
+    className="bg-black"
+    key="love-death-robots"
+    fetchPriority="low"
+  />,
+  <img
+    src="./img/sonic.gif"
+    alt="sonic-gif"
+    width="200px"
+    height="200px"
+    className="object-contain p-4"
+    key="sonic"
+    fetchPriority="low"
+  />,
+  <img
+    src="./img/cassette-covers.png"
+    alt="cassette-covers"
+    width="200px"
+    height="200px"
+    key="cassette-covers"
+    fetchPriority="low"
+    className="grayscale-100"
+  />,
+  <img
+    src="./img/player.png"
+    alt="eva-player"
+    width="200px"
+    height="200px"
+    key="player-cool"
+    fetchPriority="low"
+    className="grayscale-100"
+  />,
+  <img
+    src="./img/girl.png"
+    alt="girl"
+    width="200px"
+    height="200px"
+    key="girl-cool"
+    fetchPriority="low"
+  />,
+  <div
+    className="noise-filter min-h-32 min-w-32 mix-blend-multiply"
+    key="noisy-cool"
+  />,
+]
+
 export default function Navigator() {
+  const [parent] = useAutoAnimate()
+  const [coolIndex, setCoolIndex] = useState(0)
+
+  const goNextCool = useCallback(() => {
+    setCoolIndex((prev) => (prev + 1) % coolBox.length)
+  }, [])
+
   return (
     <nav className="flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
       {routes.map((props) => (
         <RouteCard key={props.text + props.href} {...props} />
       ))}
-      <div className="noise-filter flex flex-2 mix-blend-multiply sm:w-full md:h-full md:flex-1" />
+      <div
+        className="after:bg-accent after:content:'' flex max-h-32 max-w-32 flex-2 after:absolute after:inset-0 after:h-full after:w-full after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        onClick={goNextCool}
+        ref={parent}
+      >
+        {coolBox[coolIndex]}
+      </div>
     </nav>
   )
 }
