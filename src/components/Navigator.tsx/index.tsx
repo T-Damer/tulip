@@ -1,5 +1,6 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { useCallback, useState } from 'react'
+import { useLongPress } from 'use-long-press'
 import RouteCard from './RouteCard'
 
 const routes = [
@@ -59,6 +60,15 @@ const coolBox = [
     className="object-cover grayscale-100"
   />,
   <img
+    src="./img/whatever-happens.jpeg"
+    alt="whatever-happens"
+    width="200px"
+    height="200px"
+    key="whatever-happens"
+    fetchPriority="low"
+    className="object-cover grayscale-100"
+  />,
+  <img
     src="./img/girl.png"
     alt="girl"
     width="200px"
@@ -69,11 +79,21 @@ const coolBox = [
 ]
 
 export default function Navigator() {
+  const handlers = useLongPress((e) => {
+    e.preventDefault()
+    goPrevCool()
+  })
   const [parent] = useAutoAnimate()
+
   const [coolIndex, setCoolIndex] = useState(0)
 
   const goNextCool = useCallback(() => {
     setCoolIndex((prev) => (prev + 1) % coolBox.length)
+  }, [])
+
+  const goPrevCool = useCallback(() => {
+    setCoolIndex((prev) => (prev - 1 + coolBox.length) % coolBox.length)
+    return false
   }, [])
 
   return (
@@ -84,6 +104,11 @@ export default function Navigator() {
       <div
         className="after:bg-accent after:content:'' flex max-h-32 max-w-32 flex-2 after:absolute after:inset-0 after:h-full after:w-full after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
         onClick={goNextCool}
+        onContextMenu={(e) => {
+          e.preventDefault()
+          goPrevCool()
+        }}
+        {...handlers()}
         ref={parent}
       >
         {coolBox[coolIndex]}
