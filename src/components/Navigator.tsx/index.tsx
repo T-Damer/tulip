@@ -1,5 +1,5 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { useLongPress } from 'use-long-press'
 import RouteCard from './RouteCard'
 
@@ -88,26 +88,42 @@ const coolBox = [
 ]
 
 export default function Navigator() {
+  const [parent] = useAutoAnimate()
+  const [coolIndex, setCoolIndex] = useState(0)
+  const intervalRef = useRef<number>(null)
   const handlers = useLongPress((e) => {
     e.preventDefault()
     goPrevCool()
   })
-  const [parent] = useAutoAnimate()
-  const [coolIndex, setCoolIndex] = useState(0)
+
+  const startInterval = useCallback(() => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current)
+    }
+    intervalRef.current = setInterval(() => {
+      setCoolIndex((prev) => (prev + 1) % coolBox.length)
+    }, 10000)
+  }, [])
 
   const goNextCool = useCallback(() => {
     setCoolIndex((prev) => (prev + 1) % coolBox.length)
-  }, [])
+    startInterval()
+  }, [startInterval])
 
   const goPrevCool = useCallback(() => {
     setCoolIndex((prev) => (prev - 1 + coolBox.length) % coolBox.length)
+    startInterval()
     return false
-  }, [])
+  }, [startInterval])
 
   useEffect(() => {
-    const interval = setInterval(goNextCool, 10000)
-    return () => clearInterval(interval)
-  }, [goNextCool])
+    startInterval()
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current)
+      }
+    }
+  }, [startInterval])
 
   return (
     <nav className="dark:border-white-pale flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">

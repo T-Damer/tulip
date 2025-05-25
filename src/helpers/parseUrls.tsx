@@ -11,7 +11,7 @@ export default function parseUrls(text: string) {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="underline decoration-slate-700 decoration-wavy"
+          className="underline decoration-slate-700 decoration-wavy dark:decoration-white"
         >
           {part}
         </a>
