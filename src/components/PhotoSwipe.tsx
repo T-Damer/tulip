@@ -37,7 +37,7 @@ export default function PhotoSwipe({ items }: { items: Media[] }) {
                 <img
                   ref={ref}
                   onClick={open}
-                  className="h-44 shrink-0 object-cover grayscale-100 hover:grayscale-0 xl:h-fit"
+                  className="h-44 shrink-0 object-cover grayscale-100 hover:grayscale-0 xl:h-auto"
                   style={{
                     WebkitTransition: '0.3s -webkit-filter ease-in-out',
                   }}
