@@ -109,18 +109,10 @@ You could open invites.dosu.io/112 to see the frame and the owner`,
   },
   {
     title: 'sealcred.xyz',
-    description: `
-    I worked on sealcred.xyz, echo.sealcred.xyz, sealcaster.xyz - web3 apps to verify your identity through ZK proofs
-    I created pixel-perfect frontends for all projects, I managed user states and flows. I led development of adaptive and responsive UI
-    On the backend I integrated wallet transaction through admin wallet to interact with our contracts and update Merkle proof data,
-    I led and implemented custom position-based animations for the landing page
-    I worked on ketl.xyz — fully decentralized Twitter for founders. I used React-Native-Web with Expo. I made continuous integration by codepush updates and took responsibility for the app data in the App Store and Play Market. The frontend had a custom design, so I wrote everything by myself with fluent animations. I made infinite post feed and reddit-like comments section. I used AI services to generate pictures for users to keep them private. I also engineered random names generator with large dictionary. I implemented custom registration flow that involves YCombinator and Twitter API combined with ZK that runs directly on mobile phone
-    
-    I worked on sealcred.xyz, echo.sealcred.xyz, sealcaster.xyz - web3 apps to verify your identity through ZK proofs
-    I created pixel-perfect frontends for all projects, I managed user states and flows. I led development of adaptive and responsive UI
-    On the backend I integrated wallet transaction through admin wallet to interact with our contracts and update Merkle proof data,
-    I led and implemented custom position-based animations for the landing page
-    `,
+    description: `I worked on sealcred.xyz, echo.sealcred.xyz, sealcaster.xyz - web3 apps to verify your identity through ZK proofs
+I created pixel-perfect frontends for all projects, I managed user states and flows. I led development of adaptive and responsive UI
+On the backend I integrated wallet transaction through admin wallet to interact with our contracts and update Merkle proof data,
+I led and implemented custom position-based animations for the landing page`,
     hoverImage: credCover,
     media: sealcredImages,
     iFrameLink: 'https://sealcred.xyz',
@@ -168,7 +160,6 @@ The frontend had a custom design, so I wrote everything by myself with fluent an
 I made infinite post feed and reddit-like comments section. I used AI services to generate pictures for users to keep them private. 
 I also engineered random names generator with large dictionary. 
 I implemented custom registration flow that involves YCombinator and Twitter API combined with ZK that runs directly on mobile phone`,
-
     hoverImage: ketlCover,
     media: ketlImages,
     iFrameLink: 'https://ketl.xyz',
