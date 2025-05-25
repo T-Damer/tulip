@@ -115,7 +115,7 @@ export default function Navigator() {
         <RouteCard key={props.text + props.href} {...props} />
       ))}
       <div
-        className="after:bg-accent after:content:'' flex max-h-32 min-h-32 max-w-32 min-w-32 flex-2 after:absolute after:inset-0 after:h-full after:w-full after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        className="after:bg-accent after:content:'' flex max-h-32 min-h-32 max-w-32 min-w-32 flex-2 after:absolute after:inset-0 after:h-32 after:w-32 after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
         onClick={goNextCool}
         onContextMenu={(e) => {
           e.preventDefault()
