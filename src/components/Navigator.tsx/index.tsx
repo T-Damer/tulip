@@ -1,5 +1,5 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useLongPress } from 'use-long-press'
 import RouteCard from './RouteCard'
 
@@ -76,6 +76,15 @@ const coolBox = [
     key="girl-cool"
     fetchPriority="low"
   />,
+  <img
+    src="./img/berserk.jpg"
+    alt="berserk"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="berserk-cool"
+    fetchPriority="low"
+  />,
 ]
 
 export default function Navigator() {
@@ -84,7 +93,6 @@ export default function Navigator() {
     goPrevCool()
   })
   const [parent] = useAutoAnimate()
-
   const [coolIndex, setCoolIndex] = useState(0)
 
   const goNextCool = useCallback(() => {
@@ -96,13 +104,18 @@ export default function Navigator() {
     return false
   }, [])
 
+  useEffect(() => {
+    const interval = setInterval(goNextCool, 10000)
+    return () => clearInterval(interval)
+  }, [goNextCool])
+
   return (
     <nav className="flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
       {routes.map((props) => (
         <RouteCard key={props.text + props.href} {...props} />
       ))}
       <div
-        className="after:bg-accent after:content:'' flex max-h-32 max-w-32 flex-2 after:absolute after:inset-0 after:h-full after:w-full after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        className="after:bg-accent after:content:'' flex max-h-32 min-h-32 max-w-32 min-w-32 flex-2 after:absolute after:inset-0 after:h-full after:w-full after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
         onClick={goNextCool}
         onContextMenu={(e) => {
           e.preventDefault()

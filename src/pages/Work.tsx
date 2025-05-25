@@ -19,7 +19,7 @@ export default function WorkPage() {
   )
 
   return (
-    <div className="flex h-full w-full">
+    <div className="flex h-full w-full overflow-y-auto">
       <WorkList selected={selected} setSelected={onWorkClick} />
       {selected >= 0 ? (
         <WorkDetails {...myWorks[selected]} />

@@ -1,4 +1,5 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
+import { cn } from 'helpers/cn'
 import { myWorks } from 'helpers/constants'
 import { useState } from 'react'
 import Search from './Search'
@@ -19,32 +20,32 @@ export default function WorkList({
 
   return (
     <div
-      className={[
-        'w-full flex-col md:w-60 md:min-w-60 md:border-r-2',
-        selectedWork ? 'hidden md:flex' : '',
-      ].join(' ')}
+      className={cn(
+        'flex w-full flex-col md:w-60 md:min-w-60 md:border-r-2',
+        selectedWork ? 'hidden md:flex' : ''
+      )}
     >
       <Search value={search} setValue={setSearch} />
-      <div
-        className="mb-2 h-[calc(100dvh_-_210px)] overflow-y-scroll md:h-full"
-        ref={parent}
-      >
-        {myWorks
-          .filter(
-            (work) =>
-              work.company?.title.toLowerCase().includes(s) ||
-              work.title.toLowerCase().includes(s) ||
-              work.description.toLowerCase().includes(s) ||
-              work.tags.find((tag) => tag.includes(s))
-          )
-          .map((props, index) => (
-            <WorkListEntry
-              {...props}
-              isSelected={selected === index}
-              setSelected={() => setSelected(index)}
-              key={props.title + index}
-            />
-          ))}
+      <div className="overflow-y-auto">
+        <div className="overflow-y-scroll md:h-full" ref={parent}>
+          {myWorks
+            .filter(
+              (work) =>
+                work.company?.title.toLowerCase().includes(s) ||
+                work.title.toLowerCase().includes(s) ||
+                work.description.toLowerCase().includes(s) ||
+                work.tags.find((tag) => tag.includes(s))
+            )
+            .map((props, index) => (
+              <WorkListEntry
+                {...props}
+                isSelected={selected === index}
+                setSelected={() => setSelected(index)}
+                key={props.title + index}
+              />
+            ))}
+          <div className="h-2" />
+        </div>
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ import Zoom from 'react-medium-image-zoom'
 export default function ImageScroll({ items }: { items: Media[] }) {
   return (
     <div
-      className="mt-32 flex w-full snap-x snap-mandatory flex-row overflow-x-scroll border-b-2 sm:mt-0"
+      className="flex w-full snap-x snap-mandatory flex-row overflow-x-scroll border-b-2 sm:mt-0"
       onWheel={(ev) => {
         ev.currentTarget.scrollBy(ev.deltaY, 0)
       }}

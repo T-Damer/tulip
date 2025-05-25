@@ -7,7 +7,7 @@ import TransitionWrapper from 'components/TransitionWrapper'
 
 export default function MainPage() {
   return (
-    <TransitionWrapper>
+    <TransitionWrapper className="overflow-auto">
       <div className="flex h-full w-full flex-col items-center justify-center gap-16 overflow-y-auto pb-4 md:py-8">
         <div className="flex flex-col items-center justify-between gap-8 overflow-y-auto p-2 sm:mt-8 md:flex-row xl:mt-0">
           <Tilt className="relative mt-2 flex items-center justify-center xl:m-4">

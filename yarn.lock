@@ -2090,6 +2090,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsc@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "clsc@npm:1.0.3"
+  dependencies:
+    clsx: "npm:^1.1.1"
+    react: "npm:17.0.2"
+  checksum: 10c0/2a8d3b4dd7491a7f5d2316f4caec80d762f85b8d33bcf6c6f8da8c568310152ab668897c689ba5121b0eada325d7198d4516e27dfb38f87bcadf49ad004030e6
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^1.1.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 10c0/34dead8bee24f5e96f6e7937d711978380647e936a22e76380290e35486afd8634966ce300fc4b74a32f3762c7d4c0303f442c3e259f4ce02374eb0c82834f27
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -4042,7 +4066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -4847,6 +4871,8 @@ __metadata:
     "@vitejs/plugin-react": "npm:^4.4.1"
     add: "npm:^2.0.6"
     autoprefixer: "npm:^10.4.20"
+    clsc: "npm:^1.0.3"
+    clsx: "npm:^2.1.1"
     cross-env: "npm:^7.0.3"
     eslint: "npm:^9.21.0"
     eslint-config-prettier: "npm:^10.0.1"
@@ -4866,6 +4892,7 @@ __metadata:
     react-photoswipe-gallery: "npm:^3.1.1"
     react-router: "npm:^7.5.3"
     rollup-plugin-visualizer: "npm:^5.14.0"
+    tailwind-merge: "npm:^3.3.0"
     tailwindcss: "npm:^4.1.5"
     tilt.js: "npm:^1.2.1"
     ts-node: "npm:^10.9.2"
@@ -4952,6 +4979,16 @@ __metadata:
     react-dom:
       optional: true
   checksum: 10c0/1f98ab5974cbf6696944a3cbe3d5708add6cdb9c765e0952459eb912d388fe361914a94557546dcd45164413fd9bc2fde97302c8daf3951156644232a9e3ce16
+  languageName: node
+  linkType: hard
+
+"react@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
+  dependencies:
+    loose-envify: "npm:^1.1.0"
+    object-assign: "npm:^4.1.1"
+  checksum: 10c0/07ae8959acf1596f0550685102fd6097d461a54a4fd46a50f88a0cd7daaa97fdd6415de1dcb4bfe0da6aa43221a6746ce380410fa848acc60f8ac41f6649c148
   languageName: node
   linkType: hard
 
@@ -5617,6 +5654,13 @@ __metadata:
     "@pkgr/core": "npm:^0.1.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/e0c262817444e5b872708adb6f5ad37951ba33f6b2d1d4477d45db1f57573a784618ceed5e6614e0225db330632b1f6b95bb74d21e4d013e45ad4bde03d0cb59
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "tailwind-merge@npm:3.3.0"
+  checksum: 10c0/a50cd141100486f98541dfab3705712af5860556689b7496dc6b0284374f02d12d5471f0f40035f6bb8b1c749c422060a1f3e5f8900057d8a7786b111c8472e6
   languageName: node
   linkType: hard
 
