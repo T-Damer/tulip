@@ -110,7 +110,7 @@ export default function Navigator() {
   }, [goNextCool])
 
   return (
-    <nav className="flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
+    <nav className="dark:border-white-pale flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
       {routes.map((props) => (
         <RouteCard key={props.text + props.href} {...props} />
       ))}

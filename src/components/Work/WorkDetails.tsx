@@ -68,8 +68,8 @@ export default function WorkDetails({
     <article className="flex h-full w-full flex-col xl:flex-row-reverse">
       <PhotoSwipe items={media} />
       <div className="flex h-full w-full flex-col overflow-auto">
-        <div className="flex h-full w-full flex-3 overflow-auto border-b-2">
-          <span className="writing-sideways-lr border-r-2 py-2 text-center font-serif text-xl font-light">
+        <div className="dark:border-white-pale flex h-full w-full flex-3 overflow-auto border-b-2">
+          <span className="writing-sideways-lr dark:border-white-pale border-r-2 py-2 text-center font-serif text-xl font-light">
             {title}
           </span>
           <p className="overflow-y-scroll p-2 whitespace-pre-wrap">
@@ -78,7 +78,7 @@ export default function WorkDetails({
         </div>
 
         <footer className="flex w-full items-center whitespace-nowrap sm:justify-evenly">
-          <div className="flex w-full min-w-fit flex-1 flex-col items-center border-r-2 p-1">
+          <div className="dark:border-white-pale flex w-full min-w-fit flex-1 flex-col items-center border-r-2 p-1">
             <LinkText
               href={company?.link}
               className="inline-flex items-center gap-x-1.5"

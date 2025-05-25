@@ -4,6 +4,9 @@
   --color-accent: #ffcc33;
   --color-selection: #c79400;
 
+  --color-white-pale: #ede4dc;
+  --color-dark-pale: #181a1b;
+
   --shadow-card: 0 0 15px 6px rgb(0 0 0 / 0.25);
 }
 
@@ -30,6 +33,16 @@ body::before {
   width: 100%;
   height: calc(100% + 100px);
   z-index: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color: var(--color-white-pale);
+    background-color: var(--color-dark-pale);
+  }
+  body::before {
+    background-image: none;
+  }
 }
 
 a:hover {
@@ -74,6 +87,18 @@ a[target='_blank']:after {
       #00000050 2px,
       #00000050 3px
     );
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .bg-stripes {
+      background: repeating-linear-gradient(
+        45deg,
+        transparent 0px,
+        transparent 2px,
+        #ffffff50 2px,
+        #ffffff50 3px
+      );
+    }
   }
 
   .bg-isometric {

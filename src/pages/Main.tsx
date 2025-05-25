@@ -15,7 +15,7 @@ export default function MainPage() {
               title="Daniil"
               alt="Daniil"
               src={dither}
-              className="w-40 border-16 border-b-80 border-white sm:w-64"
+              className="border-white-pale w-40 border-16 border-b-80 sm:w-64"
             />
             <Signature className="absolute right-0 bottom-2 -rotate-15" />
           </Tilt>

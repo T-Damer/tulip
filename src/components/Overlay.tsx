@@ -4,7 +4,7 @@ import { LinkText } from './Text'
 export default function Overlay() {
   return (
     <>
-      <div className="bg-noise" />
+      <div className="bg-noise dark:invert" />
       <img
         src={bgFlowers}
         className="windy-animation pointer-events-none absolute bottom-0 left-0 z-10 opacity-10 select-none md:left-40"
