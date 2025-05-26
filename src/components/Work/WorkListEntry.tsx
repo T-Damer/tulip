@@ -13,7 +13,7 @@ export default function WorkListEntry({
     <div
       className={[
         isSelected ? 'bg-black text-white' : '',
-        'dark:border-white-pale flex cursor-pointer flex-col gap-y-1 border-b-2 p-2',
+        'dark:border-white-pale hover:bg-selection flex cursor-pointer flex-col gap-y-1 border-b-2 border-black p-2 transition-colors',
       ].join(' ')}
       onClick={setSelected}
     >

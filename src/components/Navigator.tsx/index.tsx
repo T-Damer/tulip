@@ -85,6 +85,15 @@ const coolBox = [
     key="berserk-cool"
     fetchPriority="low"
   />,
+  <img
+    src="./img/keyboard-shift.jpg"
+    alt="keyboard-cool"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="keyboard-shift"
+    fetchPriority="low"
+  />,
 ]
 
 export default function Navigator() {
