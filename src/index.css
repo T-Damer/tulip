@@ -110,8 +110,7 @@ a[target='_blank']:after {
 
   .noise-filter {
     height: 100%;
-    background:
-      linear-gradient(20deg, black, var(--color-white-pale)), var(--noise-svg);
+    background: linear-gradient(20deg, black, transparent), var(--noise-svg);
     filter: contrast(170%) brightness(1000%);
   }
 
