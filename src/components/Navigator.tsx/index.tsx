@@ -90,7 +90,7 @@ const coolBox = [
     alt="keyboard-cool"
     width="200px"
     height="200px"
-    className="grayscale-100"
+    className="object-cover"
     key="keyboard-shift"
     fetchPriority="low"
   />,
