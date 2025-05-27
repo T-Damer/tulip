@@ -37,6 +37,7 @@ export default function PhotoSwipe({ items }: { items: Media[] }) {
               >
                 {({ ref, open }) => (
                   <img
+                    fetchPriority="high"
                     ref={ref}
                     onClick={open}
                     className="h-44 shrink-0 object-cover grayscale-100 hover:grayscale-0 xl:h-auto"
