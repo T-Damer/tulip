@@ -55,7 +55,11 @@ const companies = {
     link: 'https://borodutch.com',
   },
   bigWhaleLabs: {
-    logo: <img src={BigWhaleLabsLogo} className="h-4 w-4" />,
+    logo: (
+      <div className="rounded-full p-0.5 dark:bg-white">
+        <img src={BigWhaleLabsLogo} className="h-4 w-4" />
+      </div>
+    ),
     title: 'Big Whale Labs',
     link: 'https://bwl.gg',
   },
