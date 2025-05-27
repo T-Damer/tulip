@@ -1,8 +1,8 @@
-import ketl1 from './ketl-1.png'
-import ketl2 from './ketl-2.png'
-import ketl3 from './ketl-3.png'
-import ketl4 from './ketl-4.png'
-import ketlCover from './ketl-cover.jpg'
+import ketl1 from './ketl-1.webp'
+import ketl2 from './ketl-2.webp'
+import ketl3 from './ketl-3.webp'
+import ketl4 from './ketl-4.webp'
+import ketlCover from './ketl-cover.webp'
 import ketlDemo from './ketl-demo.webm'
 
 export const ketlImages = [
