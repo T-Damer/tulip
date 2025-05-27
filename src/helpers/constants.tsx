@@ -15,7 +15,12 @@ export const links = {
   cv: 'Daniil-Pankov_CV.pdf',
 }
 
-export type Media = { url: string; title?: string; description?: string }
+export type Media = {
+  url: string
+  title?: string
+  description?: string
+  type?: 'video' | 'image'
+}
 export type Logo = { component: JSX.Element; altText: 'GitHub Logo' }
 
 export interface Work {
@@ -153,8 +158,8 @@ I led and implemented custom position-based animations for the landing page`,
   },
   {
     title: 'ketl',
-    description: `I worked on ketl.xyz — fully decentralized Twitter for founders. 
-I used React-Native-Web with Expo. 
+    description: `I worked on ketl.xyz — fully decentralized Twitter for VCs and founders. 
+My team used React-Native-Web with Expo.
 I made continuous integration by codepush updates and took responsibility for the app data in the App Store and Play Market. 
 The frontend had a custom design, so I wrote everything by myself with fluent animations. 
 I made infinite post feed and reddit-like comments section. I used AI services to generate pictures for users to keep them private. 
