@@ -1,6 +1,6 @@
 import { cn } from 'helpers/cn'
 import { PropsWithChildren } from 'react'
-import { ClassNameProp } from 'types/Props'
+import { ClassNameProp, OnClickPropVoid } from 'types/Props'
 
 export function SmallHeader({
   children,
@@ -14,8 +14,10 @@ export function LinkText({
   href,
   external,
   className,
+  onClick,
 }: PropsWithChildren &
-  ClassNameProp & { href?: string | undefined; external?: boolean }) {
+  ClassNameProp &
+  OnClickPropVoid & { href?: string | undefined; external?: boolean }) {
   return (
     <a
       className={cn(
@@ -24,6 +26,7 @@ export function LinkText({
       )}
       href={href}
       target={external ? 'blank' : '_self'}
+      onClick={onClick}
     >
       {children}
     </a>

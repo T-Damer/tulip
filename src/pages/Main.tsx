@@ -12,6 +12,8 @@ export default function MainPage() {
         <Tilt className="relative mt-2 flex items-center justify-center xl:m-4">
           <img
             srcSet={`${dither} 933w`}
+            width={160}
+            height={160}
             sizes="(max-width: 40rem) 10rem, 16rem"
             src={dither}
             alt="Daniil"
