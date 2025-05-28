@@ -42,7 +42,7 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/cassette-covers.png"
+    src="./img/cassette-covers.webp"
     alt="cassette-covers"
     width="200px"
     height="200px"
@@ -69,7 +69,7 @@ const coolBox = [
     className="object-cover grayscale-100"
   />,
   <img
-    src="./img/girl.png"
+    src="./img/girl.webp"
     alt="girl"
     width="200px"
     height="200px"
@@ -86,7 +86,7 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/keyboard-shift.jpg"
+    src="./img/keyboard-shift.webp"
     alt="keyboard-cool"
     width="200px"
     height="200px"
