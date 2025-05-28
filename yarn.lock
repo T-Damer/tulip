@@ -4573,13 +4573,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"photoswipe@npm:^5.4.4":
-  version: 5.4.4
-  resolution: "photoswipe@npm:5.4.4"
-  checksum: 10c0/9a62a8ee4b87564f3d2067edfd7f168d07973e1e37b21cd4f548363b441d8192991a88d272a0f299de0e7c773e6c74367ebcf895f0e60ca919d52e1d2f3b0355
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.0.1, picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
@@ -4849,12 +4842,10 @@ __metadata:
     framer-motion: "npm:^12.9.4"
     jotai: "npm:^2.12.1"
     lovable-tagger: "npm:^1.1.8"
-    photoswipe: "npm:^5.4.4"
     prettier: "npm:^3.5.3"
     prettier-plugin-tailwindcss: "npm:^0.6.11"
     react: "npm:^19.1.0"
     react-dom: "npm:^19.1.0"
-    react-photoswipe-gallery: "npm:^3.1.1"
     react-router: "npm:^7.5.3"
     rollup-plugin-visualizer: "npm:^5.14.0"
     tailwind-merge: "npm:^3.3.0"
@@ -4900,17 +4891,6 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
-  languageName: node
-  linkType: hard
-
-"react-photoswipe-gallery@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "react-photoswipe-gallery@npm:3.1.1"
-  peerDependencies:
-    photoswipe: ">= 5.2.2"
-    prop-types: ">= 15.7.0"
-    react: ">= 16.8.0"
-  checksum: 10c0/36603cdb8ea62342290af950b0c40b609e2b42d77ffe0095e84de61eea74347d6598be55138f90b6548f7b18bbf73fc42c4c349659f41b4a19a07bb5ca20f9ff
   languageName: node
   linkType: hard
 
