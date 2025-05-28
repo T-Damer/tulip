@@ -1,6 +1,6 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
+import hapticImpact from 'helpers/hapticImpact'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { useLongPress } from 'use-long-press'
 import RouteCard from './RouteCard'
 
 const routes = [
@@ -8,10 +8,6 @@ const routes = [
     href: '/',
     text: 'Main',
   },
-  // {
-  //   href: '/profile',
-  //   text: 'Profile',
-  // },
   {
     href: '/work',
     text: 'Work',
@@ -24,7 +20,7 @@ const coolBox = [
     key="noisy-cool"
   />,
   <img
-    src="./img/love-death-robots.gif"
+    src="./img/love-death-robots.avif"
     alt="love-death-robots-gif"
     width="200px"
     height="200px"
@@ -33,11 +29,11 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/sonic.gif"
+    src="./img/sonic.avif"
     alt="sonic-gif"
     width="200px"
     height="200px"
-    className="object-contain p-4"
+    className="bg-white object-contain p-4"
     key="sonic"
     fetchPriority="low"
   />,
@@ -51,7 +47,7 @@ const coolBox = [
     className="grayscale-100"
   />,
   <img
-    src="./img/player.gif"
+    src="./img/player.avif"
     alt="eva-player"
     width="200px"
     height="200px"
@@ -100,10 +96,6 @@ export default function Navigator() {
   const [parent] = useAutoAnimate()
   const [coolIndex, setCoolIndex] = useState(0)
   const intervalRef = useRef<number>(null)
-  const handlers = useLongPress((e) => {
-    e.preventDefault()
-    goPrevCool()
-  })
 
   const startInterval = useCallback(() => {
     if (intervalRef.current) {
@@ -115,11 +107,13 @@ export default function Navigator() {
   }, [])
 
   const goNextCool = useCallback(() => {
+    hapticImpact()
     setCoolIndex((prev) => (prev + 1) % coolBox.length)
     startInterval()
   }, [startInterval])
 
   const goPrevCool = useCallback(() => {
+    hapticImpact()
     setCoolIndex((prev) => (prev - 1 + coolBox.length) % coolBox.length)
     startInterval()
     return false
@@ -146,7 +140,6 @@ export default function Navigator() {
           e.preventDefault()
           goPrevCool()
         }}
-        {...handlers()}
         ref={parent}
       >
         {coolBox[coolIndex]}

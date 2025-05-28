@@ -3,6 +3,7 @@ import 'yet-another-react-lightbox/styles.css'
 
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { Media } from 'helpers/constants'
+import hapticImpact from 'helpers/hapticImpact'
 import { useState } from 'react'
 import Lightbox, { SlideImage } from 'yet-another-react-lightbox'
 import Counter from 'yet-another-react-lightbox/plugins/counter'
@@ -32,7 +33,10 @@ export default function GalleryLightbox({ items }: { items: Media[] }) {
               controlsList="nodownload"
               disableRemotePlayback
               disablePictureInPicture
-              onClick={() => setIndex(index)}
+              onClick={() => {
+                hapticImpact()
+                setIndex(index)
+              }}
               className="h-44 p-1 xl:h-96"
               style={{
                 WebkitTransition: '0.3s -webkit-filter ease-in-out',
@@ -48,7 +52,10 @@ export default function GalleryLightbox({ items }: { items: Media[] }) {
           >
             <img
               fetchPriority="high"
-              onClick={() => setIndex(index)}
+              onClick={() => {
+                hapticImpact()
+                setIndex(index)
+              }}
               className="h-44 shrink-0 object-cover grayscale-100 hover:grayscale-0 xl:h-auto"
               style={{
                 WebkitTransition: '0.3s -webkit-filter ease-in-out',
