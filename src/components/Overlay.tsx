@@ -1,4 +1,4 @@
-import bgFlowers from 'assets/img/bgFlowers.png'
+import bgFlowers from 'assets/img/bg-flowers.webp'
 import { LinkText } from './Text'
 
 export default function Overlay() {
