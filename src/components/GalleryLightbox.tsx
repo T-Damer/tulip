@@ -1,6 +1,7 @@
 import 'yet-another-react-lightbox/plugins/counter.css'
 import 'yet-another-react-lightbox/styles.css'
 
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { Media } from 'helpers/constants'
 import { useState } from 'react'
 import Lightbox, { SlideImage } from 'yet-another-react-lightbox'
@@ -9,6 +10,7 @@ import Video from 'yet-another-react-lightbox/plugins/video'
 import Zoom from 'yet-another-react-lightbox/plugins/zoom'
 
 export default function GalleryLightbox({ items }: { items: Media[] }) {
+  const [parent] = useAutoAnimate()
   const [index, setIndex] = useState(-1)
 
   return (
@@ -17,6 +19,7 @@ export default function GalleryLightbox({ items }: { items: Media[] }) {
       onWheel={(ev) => {
         ev.currentTarget.scrollBy(ev.deltaY, 0)
       }}
+      ref={parent}
     >
       <div className="bg-stripes dark:border-white-pale h-full w-11 shrink-0 snap-center xl:h-11 xl:w-full xl:border-b-2" />
 

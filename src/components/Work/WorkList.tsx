@@ -27,7 +27,7 @@ export default function WorkList({
     >
       <Search value={search} setValue={setSearch} />
       <div
-        className="flex flex-1 flex-col overflow-y-scroll will-change-scroll md:h-full"
+        className="flex flex-col overflow-y-scroll will-change-scroll md:h-full"
         ref={parent}
       >
         {myWorks

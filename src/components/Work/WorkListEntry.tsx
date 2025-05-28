@@ -13,8 +13,8 @@ export default function WorkListEntry({
   return (
     <div
       className={cn(
-        isSelected ? 'flex-2 bg-black text-white' : 'flex-1',
-        'dark:border-white-pale hover:bg-selection flex cursor-pointer flex-col justify-center gap-y-1 border-b-2 border-black p-2 transition-all'
+        isSelected ? 'bg-black text-white' : '',
+        'dark:border-white-pale hover:bg-selection active:bg-accent flex cursor-pointer flex-col justify-center gap-y-1 border-b-2 border-black p-2 transition-all'
       )}
       onClick={setSelected}
     >
