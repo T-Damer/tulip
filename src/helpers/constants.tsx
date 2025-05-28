@@ -16,7 +16,7 @@ export const links = {
 }
 
 export type Media = {
-  url: string
+  src: string
   title?: string
   description?: string
   type?: 'video' | 'image'

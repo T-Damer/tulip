@@ -6,10 +6,22 @@ import ketlCover from './ketl-cover.webp'
 import ketlDemo from './ketl-demo.webm'
 
 export const ketlImages = [
-  { url: ketl1, title: 'Ketl 1' },
-  { url: ketl2, title: 'Ketl 2' },
-  { url: ketl3, title: 'Ketl 3' },
-  { url: ketl4, title: 'Ketl 4' },
-  { url: ketlDemo, title: 'Ketl Android Demo', type: 'video' },
+  { src: ketl1, title: 'Ketl 1' },
+  { src: ketl2, title: 'Ketl 2' },
+  { src: ketl3, title: 'Ketl 3' },
+  { src: ketl4, title: 'Ketl 4' },
+  {
+    src: ketlDemo,
+    title: 'Ketl Android Demo',
+    type: 'video',
+    disablePictureInPicture: true,
+    preload: 'metadata',
+    sources: [
+      {
+        src: ketlDemo,
+        type: 'video/webm',
+      },
+    ],
+  },
 ]
 export { ketlCover }

@@ -26,26 +26,27 @@ export default function WorkList({
       )}
     >
       <Search value={search} setValue={setSearch} />
-      <div className="overflow-y-auto">
-        <div className="overflow-y-scroll md:h-full" ref={parent}>
-          {myWorks
-            .filter(
-              (work) =>
-                work.company?.title.toLowerCase().includes(s) ||
-                work.title.toLowerCase().includes(s) ||
-                work.description.toLowerCase().includes(s) ||
-                work.tags.find((tag) => tag.includes(s))
-            )
-            .map((props, index) => (
-              <WorkListEntry
-                {...props}
-                isSelected={selected === index}
-                setSelected={() => setSelected(index)}
-                key={props.title + index}
-              />
-            ))}
-          <div className="h-2" />
-        </div>
+      <div
+        className="flex flex-1 flex-col overflow-y-scroll will-change-scroll md:h-full"
+        ref={parent}
+      >
+        {myWorks
+          .filter(
+            (work) =>
+              work.company?.title.toLowerCase().includes(s) ||
+              work.title.toLowerCase().includes(s) ||
+              work.description.toLowerCase().includes(s) ||
+              work.tags.find((tag) => tag.includes(s))
+          )
+          .map((props, index) => (
+            <WorkListEntry
+              {...props}
+              isSelected={selected === index}
+              setSelected={() => setSelected(index)}
+              key={props.title + index}
+            />
+          ))}
+        <div className="h-2" />
       </div>
     </div>
   )
