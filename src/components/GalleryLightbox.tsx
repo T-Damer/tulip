@@ -70,6 +70,11 @@ export default function GalleryLightbox({ items }: { items: Media[] }) {
       <div className="bg-stripes dark:border-white-pale h-full w-12.5 shrink-0 snap-center border-l-2 xl:h-11 xl:w-full xl:border-l-0" />
 
       <Lightbox
+        controller={{
+          closeOnPullDown: true,
+          closeOnBackdropClick: true,
+          closeOnPullUp: true,
+        }}
         slides={items as SlideImage[]}
         index={index}
         open={index >= 0}
