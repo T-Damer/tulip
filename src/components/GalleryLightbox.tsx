@@ -28,9 +28,11 @@ export default function GalleryLightbox({ items }: { items: Media[] }) {
         item.type === 'video' ? (
           <div className="flex h-44 min-w-44 justify-center border-l-2 grayscale-100 transition-[filter] hover:grayscale-0 xl:h-96 xl:border-b-2 xl:border-l-0">
             <video
-              controls
               muted
+              playsInline
+              autoPlay
               controlsList="nodownload"
+              controls={false}
               disableRemotePlayback
               disablePictureInPicture
               onClick={() => {
