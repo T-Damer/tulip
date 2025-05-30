@@ -1,7 +1,7 @@
 import { useAutoAnimate } from '@formkit/auto-animate/react'
 import hapticImpact from 'helpers/hapticImpact'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { useLongPress } from 'use-long-press'
+import { LongPressEventType, useLongPress } from 'use-long-press'
 import RouteCard from './RouteCard'
 
 const routes = [
@@ -128,7 +128,12 @@ export default function Navigator() {
       }
     }
   }, [startInterval])
-  const handlers = useLongPress(goPrevCool)
+  const handlers = useLongPress(
+    () => {
+      goPrevCool()
+    },
+    { onFinish: goPrevCool, detect: LongPressEventType.Touch }
+  )
 
   return (
     <nav className="dark:border-white-pale flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 select-none sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
@@ -137,6 +142,7 @@ export default function Navigator() {
       ))}
       <div
         className="after:bg-accent after:content:'' flex max-h-32 min-h-32 max-w-32 min-w-32 flex-2 after:absolute after:inset-0 after:h-32 after:w-32 after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        {...handlers()}
         onClick={goNextCool}
         onContextMenu={(e) => {
           e.preventDefault()
@@ -147,7 +153,6 @@ export default function Navigator() {
             goPrevCool()
           }
         }}
-        {...handlers()}
         ref={parent}
       >
         {coolBox[coolIndex]}
