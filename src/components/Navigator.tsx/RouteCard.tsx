@@ -21,12 +21,12 @@ export default function RouteCard({
         cn(
           isActive ? 'bg-black text-white' : '',
           isActive ? 'flex-3' : 'flex-1',
-          'active:bg-accent dark:border-white-pale flex h-32 w-full flex-col items-center justify-center gap-1 border-r-2 border-black p-2 sm:h-auto sm:border-r-0 sm:border-b-2'
+          'dark:border-white-pale flex h-32 w-full flex-col items-center justify-center gap-1 border-r-2 border-black p-2 active:opacity-80 sm:h-auto sm:border-r-0 sm:border-b-2'
         )
       }
       viewTransition
     >
-      <span className="-rotate-45">
+      <span className="-rotate-45 font-serif">
         <span className="hidden md:block">{text}</span>
         <span className="block md:hidden">
           {workDetailsPage ? 'To projects' : text}
