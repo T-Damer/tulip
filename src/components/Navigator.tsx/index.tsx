@@ -21,7 +21,7 @@ const coolBox = [
     key="noisy-cool"
   />,
   <img
-    src="./img/love-death-robots.avif"
+    src="./img/cool/love-death-robots.avif"
     alt="love-death-robots-gif"
     width="200px"
     height="200px"
@@ -30,7 +30,7 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/sonic.avif"
+    src="./img/cool/sonic.avif"
     alt="sonic-gif"
     width="200px"
     height="200px"
@@ -39,7 +39,7 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/cassette-covers.webp"
+    src="./img/cool/cassette-covers.webp"
     alt="cassette-covers"
     width="200px"
     height="200px"
@@ -48,7 +48,7 @@ const coolBox = [
     className="grayscale-100"
   />,
   <img
-    src="./img/player.avif"
+    src="./img/cool/player.avif"
     alt="eva-player"
     width="200px"
     height="200px"
@@ -57,7 +57,7 @@ const coolBox = [
     className="object-cover grayscale-100"
   />,
   <img
-    src="./img/whatever-happens.jpeg"
+    src="./img/cool/whatever-happens.jpeg"
     alt="whatever-happens"
     width="200px"
     height="200px"
@@ -66,7 +66,7 @@ const coolBox = [
     className="object-cover grayscale-100"
   />,
   <img
-    src="./img/girl.webp"
+    src="./img/cool/girl.webp"
     alt="girl"
     width="200px"
     height="200px"
@@ -74,7 +74,7 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/berserk.jpg"
+    src="./img/cool/berserk.jpg"
     alt="berserk"
     width="200px"
     height="200px"
@@ -83,12 +83,39 @@ const coolBox = [
     fetchPriority="low"
   />,
   <img
-    src="./img/keyboard-shift.webp"
+    src="./img/cool/sky-palm.webp"
     alt="keyboard-cool"
     width="200px"
     height="200px"
     className="grayscale-100"
-    key="keyboard-shift"
+    key="sky-palm"
+    fetchPriority="low"
+  />,
+  <img
+    src="./img/cool/yellow-skeleton.webp"
+    alt="yellow-skeleton"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="yellow-skeleton"
+    fetchPriority="low"
+  />,
+  <img
+    src="./img/cool/daft-punk.webp"
+    alt="daft-punk"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="daft-punk"
+    fetchPriority="low"
+  />,
+  <img
+    src="./img/cool/sea-mountain.webp"
+    alt="daft-punk"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="daft-punk"
     fetchPriority="low"
   />,
 ]

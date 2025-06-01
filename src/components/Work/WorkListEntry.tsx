@@ -1,7 +1,7 @@
-import Tag from 'components/Tag';
-import { SmallHeader } from 'components/Text';
-import { cn } from 'helpers/cn';
-import { Work } from 'helpers/constants';
+import Tag from 'components/Tag'
+import { SmallHeader } from 'components/Text'
+import { cn } from 'helpers/cn'
+import { Work } from 'helpers/constants'
 
 export default function WorkListEntry({
   title,

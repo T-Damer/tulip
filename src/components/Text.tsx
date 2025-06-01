@@ -1,6 +1,6 @@
-import { cn } from 'helpers/cn';
-import { PropsWithChildren } from 'react';
-import { ClassNameProp, OnClickPropVoid } from 'types/Props';
+import { cn } from 'helpers/cn'
+import { PropsWithChildren } from 'react'
+import { ClassNameProp, OnClickPropVoid } from 'types/Props'
 
 export function SmallHeader({
   children,
