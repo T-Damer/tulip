@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" style="background-color: #181a1b">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,6 +36,30 @@
     />
     <meta name="apple-mobile-web-app-title" content="Daniil P" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <style>
+    html {
+      background: repeating-linear-gradient(
+        45deg,
+        transparent 0px,
+        transparent 2px,
+        #00000050 2px,
+        #00000050 3px
+      );
+    }
+
+    @media (prefers-color-scheme: dark) {
+    html {
+        background: repeating-linear-gradient(
+          45deg,
+          transparent 0px,
+          transparent 2px,
+          #ffffff50 2px,
+          #ffffff50 3px
+        );
+      }
+    }
+    </style>
   </head>
   <body>
     <noscript>Please, turn on JavaScript to see this page.</noscript>
