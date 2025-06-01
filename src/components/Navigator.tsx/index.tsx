@@ -159,7 +159,7 @@ export default function Navigator() {
     () => {
       goPrevCool()
     },
-    { onFinish: goPrevCool, detect: LongPressEventType.Touch }
+    { detect: LongPressEventType.Touch }
   )
 
   return (
