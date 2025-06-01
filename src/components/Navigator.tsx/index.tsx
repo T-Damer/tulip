@@ -111,11 +111,11 @@ const coolBox = [
   />,
   <img
     src="./img/cool/sea-mountain.webp"
-    alt="daft-punk"
+    alt="sea-mountain"
     width="200px"
     height="200px"
     className="grayscale-100"
-    key="daft-punk"
+    key="sea-mountain"
     fetchPriority="low"
   />,
 ]
