@@ -16,7 +16,6 @@ export default defineConfig({
     svgr(),
     isDev && componentTagger(),
   ],
-  base: '/prtfl-io/',
   build: {
     rollupOptions: {
       plugins: [
