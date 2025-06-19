@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --color-accent: #ffcc33;
@@ -7,11 +7,12 @@
   --color-white-pale: #ede4dc;
   --color-dark-pale: #181a1b;
 
-  --font-serif: "Special Elite", ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-serif: "Special Elite", ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
 
   --shadow-card: 0 0 15px 6px rgb(0 0 0 / 0.25);
 
-  --noise-svg: url('/img/noise-filter.svg');
+  --noise-svg: url("/img/noise-filter.svg");
 }
 
 * {
@@ -37,7 +38,7 @@ body::before {
   top: 0;
   background: url(/img/bgTexture.jpg) 0 0;
   background-size: 500px 500px;
-  content: '';
+  content: "";
   width: 100%;
   height: calc(100% + 100px);
   z-index: 0;
@@ -60,8 +61,8 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
-a[target='_blank']:after {
-  content: ' ↗';
+a[target="_blank"]:after {
+  content: " ↗";
 }
 
 @layer utilities {
@@ -73,7 +74,7 @@ a[target='_blank']:after {
     bottom: -50%;
     width: 200dvw;
     height: 200dvh;
-    background: transparent url('/img/noise.png') repeat 0 0;
+    background: transparent url("/img/noise.png") repeat 0 0;
     background-repeat: repeat;
     background-size: 250px 250px;
     /* animation: bg-animation 0.55 s infinite; */
@@ -186,6 +187,6 @@ span {
   }
 }
 
-div[data-rmiz-modal-overlay='visible'] {
+div[data-rmiz-modal-overlay="visible"] {
   background-color: black !important;
 }

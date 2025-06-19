@@ -1,6 +1,6 @@
+import dosu from './dosu.webp'
 import dosu2 from './dosu-2.webp'
 import dosuInvites from './dosu-invites.webp'
-import dosu from './dosu.webp'
 
 export { dosuInvites }
 

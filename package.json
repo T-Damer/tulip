@@ -7,9 +7,8 @@
   "scripts": {
     "start": "vite",
     "build": "cross-env NODE_ENV=production tsc && vite build",
-    "pretty": "prettier --write src",
-    "lint": "eslint --max-warnings 0 src",
-    "fix-code": "yarn pretty && yarn lint",
+    "biome-check": "biome check",
+    "biome-write": "biome check --write",
     "preview": "yarn build && yarn vite preview"
   },
   "dependencies": {
@@ -28,28 +27,19 @@
     "yet-another-react-lightbox": "^3.23.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.0.0",
     "@tailwindcss/typography": "^0.5.16",
-    "@types/eslint-config-prettier": "^6.11.3",
     "@types/node": "^22.13.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
-    "eslint": "^9.21.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-tailwindcss": "^3.18.0",
     "lovable-tagger": "^1.1.8",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
     "rollup-plugin-visualizer": "^5.14.0",
     "tailwindcss": "^4.1.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.1",
     "vite": "^6.1.1",
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.4"

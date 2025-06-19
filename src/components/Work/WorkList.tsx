@@ -21,7 +21,7 @@ export default function WorkList({
   return (
     <div
       className={cn(
-        'dark:border-white-pale flex w-full flex-col md:w-60 md:min-w-60 md:border-r-2',
+        'flex w-full flex-col md:w-60 md:min-w-60 md:border-r-2 dark:border-white-pale',
         selectedWork ? 'hidden md:flex' : ''
       )}
     >
@@ -43,7 +43,7 @@ export default function WorkList({
               {...props}
               isSelected={selected === index}
               setSelected={() => setSelected(index)}
-              key={props.title + index}
+              key={props.title}
             />
           ))}
         <div className="h-2" />

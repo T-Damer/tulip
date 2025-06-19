@@ -6,7 +6,7 @@ export default function Search({
   setValue: (str: string) => void
 }) {
   return (
-    <search className="dark:border-white-pale focus-within:bg-selection z-10 border-b-2 border-black bg-black p-2 text-white transition-colors">
+    <search className="z-10 border-black border-b-2 bg-black p-2 text-white transition-colors focus-within:bg-selection dark:border-white-pale">
       <input
         role="search"
         className="w-full outline-none"

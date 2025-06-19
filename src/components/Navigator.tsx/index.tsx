@@ -163,12 +163,12 @@ export default function Navigator() {
   )
 
   return (
-    <nav className="dark:border-white-pale flex h-32 min-h-32 min-w-32 flex-row items-center border-t-2 select-none sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2">
+    <nav className="flex h-32 min-h-32 min-w-32 select-none flex-row items-center border-t-2 sm:h-full sm:flex-col sm:border-t-0 sm:border-r-2 dark:border-white-pale">
       {routes.map((props) => (
         <RouteCard key={props.text + props.href} {...props} />
       ))}
       <div
-        className="after:bg-accent after:content:'' bg-stripes relative flex max-h-32 min-h-32 max-w-32 min-w-32 flex-2 after:absolute after:inset-0 after:h-32 after:w-32 after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
+        className="after:content:'' relative flex max-h-32 min-h-32 min-w-32 max-w-32 flex-2 bg-stripes after:absolute after:inset-0 after:h-32 after:w-32 after:bg-accent after:opacity-0 after:transition-opacity after:duration-1000 hover:after:opacity-20 sm:w-full md:h-full md:flex-1"
         {...handlers()}
         onClick={goNextCool}
         onContextMenu={(e) => {

@@ -1,7 +1,7 @@
 import Tag from 'components/Tag'
 import { SmallHeader } from 'components/Text'
 import { cn } from 'helpers/cn'
-import { Work } from 'helpers/constants'
+import type { Work } from 'helpers/constants'
 
 export default function WorkListEntry({
   title,
@@ -14,13 +14,14 @@ export default function WorkListEntry({
     <div
       className={cn(
         isSelected ? 'bg-black text-white' : '',
-        'dark:border-white-pale hover:bg-selection flex cursor-pointer flex-col justify-center gap-y-3 border-b-2 border-black p-2 transition-opacity active:opacity-60'
+        'flex cursor-pointer flex-col justify-center gap-y-3 border-black border-b-2 p-2 transition-opacity hover:bg-selection active:opacity-60 dark:border-white-pale'
       )}
       onClick={setSelected}
+      onKeyDown={setSelected}
     >
       <div>
         <SmallHeader className="font-serif">{title}</SmallHeader>
-        <span className="line-clamp-3 text-sm leading-tight font-light opacity-50">
+        <span className="line-clamp-3 font-light text-sm leading-tight opacity-50">
           {description}
         </span>
       </div>

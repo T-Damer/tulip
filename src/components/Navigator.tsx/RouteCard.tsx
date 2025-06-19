@@ -11,8 +11,7 @@ export default function RouteCard({
 }) {
   const location = useLocation()
   const workDetailsPage =
-    href === '/work' &&
-    !isNaN(location.pathname.split('/')[2]?.search(/[0-9]+/))
+    href === '/work' && !Number.isNaN(Number(location.pathname.split('/')[2]))
 
   return (
     <NavLink
@@ -21,7 +20,7 @@ export default function RouteCard({
         cn(
           isActive ? 'bg-black text-white' : '',
           isActive ? 'flex-3' : 'flex-1',
-          'dark:border-white-pale flex h-32 w-full flex-col items-center justify-center gap-1 border-r-2 border-black p-2 active:opacity-80 sm:h-auto sm:border-r-0 sm:border-b-2'
+          'flex h-32 w-full flex-col items-center justify-center gap-1 border-black border-r-2 p-2 active:opacity-80 sm:h-auto sm:border-r-0 sm:border-b-2 dark:border-white-pale'
         )
       }
       viewTransition

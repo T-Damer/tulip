@@ -1,13 +1,13 @@
 import { cn } from 'helpers/cn'
-import { PropsWithChildren } from 'react'
-import { ClassNameProp, OnClickPropVoid } from 'types/Props'
+import type { PropsWithChildren } from 'react'
+import type { ClassNameProp, OnClickPropVoid } from 'types/Props'
 
 export function SmallHeader({
   children,
   className,
 }: PropsWithChildren & ClassNameProp) {
   return (
-    <h2 className={cn('text-2xl leading-7 font-bold', className)}>
+    <h2 className={cn('font-bold text-2xl leading-7', className)}>
       {children}
     </h2>
   )

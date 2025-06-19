@@ -17,9 +17,9 @@ export default function MainPage() {
             sizes="(max-width: 40rem) 10rem, 16rem"
             src={dither}
             alt="Daniil"
-            className="w-40 border-16 border-b-80 border-white sm:w-64"
+            className="w-40 border-16 border-white border-b-80 sm:w-64"
           />
-          <Signature className="absolute right-0 bottom-2 -rotate-15" />
+          <Signature className="-rotate-15 absolute right-0 bottom-2" />
         </Tilt>
 
         <div className="w-full max-w-80 overflow-y-auto">

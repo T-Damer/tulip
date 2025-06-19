@@ -17,5 +17,15 @@ jobs:
         run: yarn
       - name: Build code
         run: yarn build
-      - name: Lint code
-        run: yarn lint
+      - name: Setup Biome
+        uses: biomejs/setup-biome@v2
+      - name: Run Biome
+        run: biome ci .
+
+
+name: Code quality
+
+on:
+  push:
+  pull_request:
+
