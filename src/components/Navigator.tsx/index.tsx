@@ -118,6 +118,15 @@ const coolBox = [
     key="sea-mountain"
     fetchPriority="low"
   />,
+  <img
+    src="./img/cool/initialD.webp"
+    alt="initialD"
+    width="200px"
+    height="200px"
+    className="grayscale-100"
+    key="initialD"
+    fetchPriority="low"
+  />,
 ]
 
 export default function Navigator() {
