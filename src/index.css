@@ -24,6 +24,7 @@
 
 html {
   overscroll-behavior: none;
+  text-wrap: pretty;
 }
 
 body {
