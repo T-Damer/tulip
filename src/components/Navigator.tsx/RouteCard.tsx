@@ -1,4 +1,5 @@
 import { cn } from 'helpers/cn'
+import hapticImpact from 'helpers/hapticImpact'
 import { NavLink, useLocation } from 'react-router'
 
 export default function RouteCard({
@@ -16,6 +17,7 @@ export default function RouteCard({
   return (
     <NavLink
       to={href}
+      onClick={() => hapticImpact()}
       className={({ isActive }) =>
         cn(
           isActive ? 'bg-black text-white' : '',

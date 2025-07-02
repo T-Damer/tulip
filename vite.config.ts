@@ -16,6 +16,7 @@ export default defineConfig({
     svgr(),
     isDev && componentTagger(),
   ],
+  base: '/tulip/',
   build: {
     rollupOptions: {
       plugins: [
