@@ -1,3 +1,4 @@
+import { lingui } from '@lingui/vite-plugin'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import { componentTagger } from 'lovable-tagger'
@@ -10,7 +11,12 @@ const isDev = process.env.NODE_ENV === 'development'
 
 export default defineConfig({
   plugins: [
-    react(),
+    react({
+      babel: {
+        plugins: ['@lingui/babel-plugin-lingui-macro'],
+      },
+    }),
+    lingui(),
     tsconfigPaths(),
     tailwindcss(),
     svgr(),

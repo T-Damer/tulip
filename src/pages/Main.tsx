@@ -1,5 +1,4 @@
 import { Tilt } from '@jdion/tilt-react'
-import Signature from 'assets/icons/Signature'
 import HrText from 'components/HrText'
 import TransitionWrapper from 'components/TransitionWrapper'
 
@@ -19,7 +18,6 @@ export default function MainPage() {
             alt="Daniil"
             className="w-40 border-16 border-white border-b-80 sm:w-64"
           />
-          <Signature className="-rotate-15 absolute right-0 bottom-2" />
         </Tilt>
 
         <div className="w-full max-w-80 overflow-y-auto">

@@ -9,11 +9,15 @@
     "build": "cross-env NODE_ENV=production tsc && vite build",
     "biome-check": "biome check",
     "biome-write": "biome check --write",
-    "preview": "yarn build && yarn vite preview"
+    "preview": "yarn build && yarn vite preview",
+    "locale:extract": "lingui extract",
+    "locale:compile": "lingui compile"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@jdion/tilt-react": "^1.0.0",
+    "@lingui/core": "^5.3.2",
+    "@lingui/react": "^5.3.2",
     "@tailwindcss/vite": "^4.1.5",
     "clsx": "^2.1.1",
     "framer-motion": "^12.9.4",
@@ -21,10 +25,15 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router": "^7.5.3",
+    "swiper": "^11.2.10",
     "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.0",
+    "@lingui/babel-plugin-extract-messages": "^5.3.2",
+    "@lingui/babel-plugin-lingui-macro": "^5.3.2",
+    "@lingui/cli": "^5.3.2",
+    "@lingui/vite-plugin": "^5.3.2",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.13.5",
     "@types/react": "^19",
