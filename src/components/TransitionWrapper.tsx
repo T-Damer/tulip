@@ -10,8 +10,8 @@ export default function TransitionWrapper({
   return (
     <motion.div
       className={cn('h-full w-full', className)}
-      initial={{ height: '25%' }}
-      animate={{ height: '100%' }}
+      initial={{ width: '0%' }}
+      animate={{ width: '100%' }}
     >
       {children}
     </motion.div>

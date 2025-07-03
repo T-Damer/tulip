@@ -1,26 +1,12 @@
 import QuestionSwiper from 'components/QuestionSwiper'
-import { useCallback, useState } from 'react'
-import { useNavigate, useParams } from 'react-router'
+import TransitionWrapper from 'components/TransitionWrapper'
 
 export default function WorkPage() {
-  const { id } = useParams<{ id: string }>()
-
-  const navigate = useNavigate()
-  const [selected, setSelected] = useState(Number(id || 0))
-
-  const onWorkClick = useCallback(
-    (workNumber: number) => {
-      void navigate(`/work/${workNumber}`)
-      setSelected(workNumber)
-    },
-    [navigate]
-  )
-
   return (
-    <div className="flex h-full w-full overflow-y-auto">
-      <div onClick={() => onWorkClick(selected)}>
-        WorkDetails <QuestionSwiper />
+    <TransitionWrapper className="overflow-auto">
+      <div className="flex h-full w-full items-center justify-center">
+        <QuestionSwiper />
       </div>
-    </div>
+    </TransitionWrapper>
   )
 }

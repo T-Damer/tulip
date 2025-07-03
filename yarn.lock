@@ -1104,18 +1104,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jdion/tilt-react@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@jdion/tilt-react@npm:1.0.0"
-  peerDependencies:
-    "@types/react": ^18.0.29
-    "@types/react-dom": ^18.0.11
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  checksum: 10c0/9d1f5e9e193f71b3188abbdba0ac13c29b21c3c86ba7470d651d19ae5eadab864b803e4f58a637ce5d1bf105dc6a4f9d694fd556395e67e647f96b40f170e0ac
-  languageName: node
-  linkType: hard
-
 "@jest/schemas@npm:^29.6.3":
   version: 29.6.3
   resolution: "@jest/schemas@npm:29.6.3"
@@ -5251,7 +5239,6 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:2.0.0"
     "@formkit/auto-animate": "npm:^0.8.2"
-    "@jdion/tilt-react": "npm:^1.0.0"
     "@lingui/babel-plugin-extract-messages": "npm:^5.3.2"
     "@lingui/babel-plugin-lingui-macro": "npm:^5.3.2"
     "@lingui/cli": "npm:^5.3.2"

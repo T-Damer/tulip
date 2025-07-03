@@ -8,7 +8,7 @@ export default function AnimatedRoutes() {
   return (
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<MainPage />} />
-      <Route path="work/:id?" element={<WorkPage />} />
+      <Route path="questions" element={<WorkPage />} />
     </Routes>
   )
 }
