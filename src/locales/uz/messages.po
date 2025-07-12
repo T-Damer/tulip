@@ -6,3 +6,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: uz\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Main.tsx:23
+msgid "Врач"
+msgstr ""
+
+#: src/pages/Result.tsx:52
+msgid "Обратиться к специалисту"
+msgstr ""
+
+#: src/pages/Main.tsx:32
+msgid "Пациент"
+msgstr ""
+
+#: src/pages/Result.tsx:41
+msgid "Пройти заново"
+msgstr ""
+
+#: src/pages/Result.tsx:23
+#: src/pages/Result.tsx:45
+msgid "Результат"
+msgstr ""
+
+#: src/pages/Result.tsx:46
+msgid "Сохранить и отправить"
+msgstr ""
