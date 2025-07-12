@@ -1,11 +1,9 @@
 @import "tailwindcss";
+@plugin 'daisyui';
 
 @theme {
-  --color-accent: #ffcc33;
-  --color-selection: #c79400;
-
-  --color-white-pale: #ede4dc;
-  --color-dark-pale: #181a1b;
+  --color-accent: #FD62C7;
+  --color-selection: #EFC9F7;
 
   --font-sans: "Nunito", sans-serif;
 
@@ -17,8 +15,6 @@
 * {
   -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth !important;
-  scrollbar-color: transparent !important;
-  scrollbar-width: none !important;
 }
 
 html {
@@ -32,27 +28,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body::before {
-  position: fixed;
-  left: 0;
-  top: 0;
-  background: url(/img/bgTexture.jpg) 0 0;
-  background-size: 500px 500px;
-  content: "";
-  width: 100%;
-  height: calc(100% + 100px);
-  z-index: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color: var(--color-white-pale);
-    background-color: var(--color-dark-pale);
-  }
-  body::before {
-    background-image: none;
-  }
-}
 
 a:hover {
   background: var(--color-selection);
@@ -65,67 +40,6 @@ a[target="_blank"]:after {
   content: " ↗";
 }
 
-@layer utilities {
-  .bg-noise {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    right: -50%;
-    bottom: -50%;
-    width: 200dvw;
-    height: 200dvh;
-    background: transparent url("/img/noise.png") repeat 0 0;
-    background-repeat: repeat;
-    background-size: 250px 250px;
-    /* animation: bg-animation 0.55 s infinite; */
-    opacity: 0.9;
-    visibility: visible;
-    will-change: transform;
-    pointer-events: none;
-  }
-
-  .writing-sideways-lr {
-    writing-mode: sideways-lr;
-  }
-
-  .bg-stripes {
-    background: repeating-linear-gradient(
-      45deg,
-      transparent 0px,
-      transparent 2px,
-      #00000050 2px,
-      #00000050 3px
-    );
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .bg-stripes {
-      background: repeating-linear-gradient(
-        45deg,
-        transparent 0px,
-        transparent 2px,
-        #ffffff50 2px,
-        #ffffff50 3px
-      );
-    }
-  }
-
-  .bg-isometric {
-    background-image: radial-gradient(black 2px, transparent 2px);
-    background-size: 13px 13px;
-  }
-
-  .noise-filter {
-    height: 100%;
-    background: linear-gradient(20deg, black, transparent), var(--noise-svg);
-    filter: contrast(170%) brightness(1000%);
-  }
-
-  .windy-animation {
-    animation: windy-image 2s infinite alternate;
-    transform-origin: center bottom;
-  }
-}
 
 span {
   text-decoration: underline wavy transparent;
@@ -143,48 +57,6 @@ span {
   scrollbar-width: none !important;
   width: 0 !important;
   background: none !important;
-}
-
-@keyframes windy-image {
-  to {
-    transform: skewX(-7deg);
-  }
-}
-
-@keyframes bg-animation {
-  0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5%, -5%);
-  }
-  20% {
-    transform: translate(-10%, 5%);
-  }
-  30% {
-    transform: translate(5%, -10%);
-  }
-  40% {
-    transform: translate(-5%, 15%);
-  }
-  50% {
-    transform: translate(-10%, 5%);
-  }
-  60% {
-    transform: translate(15%, 0);
-  }
-  70% {
-    transform: translate(0, 10%);
-  }
-  80% {
-    transform: translate(-15%, 0);
-  }
-  90% {
-    transform: translate(10%, 5%);
-  }
-  100% {
-    transform: translate(5%, 0);
-  }
 }
 
 div[data-rmiz-modal-overlay="visible"] {

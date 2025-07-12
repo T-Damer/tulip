@@ -9,13 +9,13 @@ export default function MainPage() {
     <TransitionWrapper className="overflow-auto">
       <div className="flex h-full flex-col items-center justify-center gap-8 p-2 md:flex-row">
         <Card
-          className="items-center justify-center font-bold text-2xl"
+          className="items-center justify-center font-bold text-2xl text-black transition-all hover:bg-slate-200 active:scale-110"
           onClick={() => navigate('/questions?role=doctor')}
         >
           Врач
         </Card>
         <Card
-          className="items-center justify-center font-bold text-2xl"
+          className="items-center justify-center font-bold text-2xl text-black transition-all hover:bg-slate-200 active:scale-110"
           onClick={() => navigate('/questions?role=patient')}
         >
           Пациент
