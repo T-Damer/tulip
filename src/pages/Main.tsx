@@ -1,36 +1,50 @@
-import { useLingui } from '@lingui/react/macro'
-import isDocStore from 'atoms/isDocStore'
-import Card from 'components/Card'
 import TransitionWrapper from 'components/TransitionWrapper'
-import { useSetAtom } from 'jotai'
+import { motion } from 'framer-motion'
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router'
 
+function WelcomeScreen({ onComplete }: { onComplete: () => void }) {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      onComplete()
+    }, 3000)
+    return () => clearTimeout(timer)
+  }, [onComplete])
+
+  return (
+    <motion.div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-gray-900"
+      initial={{ opacity: 1 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <motion.div
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        className="text-center"
+      >
+        <motion.h1
+          className="mb-4 font-bold font-heading text-5xl"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          🌷 Тюльпан
+        </motion.h1>
+      </motion.div>
+    </motion.div>
+  )
+}
+
 export default function MainPage() {
-  const { t } = useLingui()
   const navigate = useNavigate()
-  const setIsDoc = useSetAtom(isDocStore)
 
   return (
     <TransitionWrapper className="overflow-auto">
       <div className="flex h-full flex-col items-center justify-center gap-8 p-2 md:flex-row">
-        <Card
-          className="items-center justify-center font-bold text-2xl text-black transition-all hover:scale-105 hover:bg-slate-200 active:scale-110"
-          onClick={() => {
-            setIsDoc(true)
-            navigate('/questions')
-          }}
-        >
-          {t`Врач`}
-        </Card>
-        <Card
-          className="items-center justify-center font-bold text-2xl text-black transition-all hover:scale-105 hover:bg-slate-200 active:scale-110"
-          onClick={() => {
-            setIsDoc(false)
-            navigate('/questions')
-          }}
-        >
-          {t`Пациент`}
-        </Card>
+        <WelcomeScreen onComplete={() => navigate('/select')} />
       </div>
     </TransitionWrapper>
   )
