@@ -2,18 +2,19 @@ import 'swiper/css'
 import 'swiper/css/effect-cards'
 
 import patientsDataStore from 'atoms/patientsDataStore'
+import useQuestions from 'helpers/hooks/useQuestions'
 import { useAtom } from 'jotai'
 import { useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router'
 import { A11y, Controller, EffectCards } from 'swiper/modules'
 import { Swiper, SwiperRef, SwiperSlide } from 'swiper/react'
-import { questions } from 'types/Question'
 import QuestionCard from './QuestionCard'
 
 export default function QuestionSwiper() {
   const navigate = useNavigate()
   const [atom, setAtom] = useAtom(patientsDataStore)
   const swiperRef = useRef<SwiperRef>(null)
+  const questions = useQuestions()
 
   const handleAnswer = useCallback(
     (value: number, questionIndex: number) => {

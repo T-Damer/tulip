@@ -4,12 +4,13 @@
 // value1, value2
 
 import { PatientsDataStore } from 'atoms/patientsDataStore'
-import { questions } from 'types/Question'
-import { QuestionaryResult } from './getResult'
+import { Question } from 'types/Question'
+import { QuestionaryResult } from './hooks/useResult'
 
 export default function (
   dataObjToWrite: PatientsDataStore,
-  result: QuestionaryResult
+  result: QuestionaryResult,
+  questions: Question[]
 ) {
   // parse like this:
   const titles: string[] = []

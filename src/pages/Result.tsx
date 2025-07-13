@@ -2,7 +2,8 @@ import { useLingui } from '@lingui/react/macro'
 import isDocStore from 'atoms/isDocStore'
 import patientsDataStore from 'atoms/patientsDataStore'
 import TransitionWrapper from 'components/TransitionWrapper'
-import getResult from 'helpers/getResult'
+import useQuestions from 'helpers/hooks/useQuestions'
+import useResult from 'helpers/hooks/useResult'
 import saveObjectAsXlsx from 'helpers/saveObjectAsXlsx'
 import { useAtom, useAtomValue } from 'jotai'
 import { useNavigate } from 'react-router'
@@ -15,7 +16,8 @@ export default function ResultPage() {
   const isDoc = useAtomValue(isDocStore)
   const { t } = useLingui()
   const sum = atom.map((item) => item.answerId).reduce((a, b) => a + b, 0)
-  const result = getResult(sum)
+  const questions = useQuestions()
+  const result = useResult(sum)
 
   return (
     <TransitionWrapper className="z-10 flex items-center justify-center overflow-auto">
@@ -26,7 +28,7 @@ export default function ResultPage() {
 
         {isDoc ? (
           <>
-            <h2 className="font-bold text-lg">Лечение</h2>
+            <h2 className="font-bold text-lg">{t`Лечение`}</h2>
             <p>{result.treatment}</p>
           </>
         ) : null}
@@ -42,7 +44,9 @@ export default function ResultPage() {
 
           <button
             className="btn btn-primary btn-lg rounded-3xl"
-            onClick={() => saveObjectAsXlsx(t`Результат`, atom, result)}
+            onClick={() =>
+              saveObjectAsXlsx(t`Результат`, atom, result, questions)
+            }
           >{t`Сохранить и отправить`}</button>
 
           {sum > 10 ? (
