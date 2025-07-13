@@ -47,7 +47,7 @@ msgstr ""
 
 #: src/types/Question.ts:27
 msgid "99,0 – 70,0 г/л"
-msgstr ""
+msgstr "99,0 – 70,0 g/l"
 
 #: src/types/Question.ts:64
 msgid "Cостояние, при котором масса тела новорождённого значительно превышает норму для текущего возраста"
@@ -71,55 +71,55 @@ msgstr "Qon aylanishining buzilishisiz"
 
 #: src/types/Question.ts:149
 msgid "Без нарушения функции"
-msgstr ""
+msgstr "Funktsiyaning buzilishisiz"
 
 #: src/types/Question.ts:168
 msgid "Без эндотелиальной дисфункции"
-msgstr ""
+msgstr "O'ktir endotelial disfunksiya belgilari bilan"
 
 #: src/types/Question.ts:26
 msgid "Более 100 г/л"
-msgstr ""
+msgstr "100 g/l dan ortiq"
 
 #: src/types/Question.ts:78
 msgid "Более 2000 мл"
-msgstr ""
+msgstr "2000 ml dan ortiq"
 
 #: src/types/Question.ts:38
 msgid "Более 30 кг/м²"
-msgstr ""
+msgstr "30 kg/m² dan ortiq"
 
 #: src/types/Question.ts:190
 msgid "Более 33 секунд"
-msgstr ""
+msgstr "33 sekunddan ortiq"
 
 #: src/types/Question.ts:85
 msgid "Более 4 родов"
-msgstr ""
+msgstr "4 dan ortiq"
 
 #: src/types/Question.ts:68
 msgid "Более 4500 грамм"
-msgstr ""
+msgstr "4500 gramdan ortiq"
 
 #: src/types/Question.ts:58
 msgid "Более 5000 грамм"
-msgstr ""
+msgstr "5000 gramdan ortiq"
 
 #: src/types/Question.ts:201
 msgid "Варикозная болезнь"
-msgstr ""
+msgstr "Varikoz"
 
 #: src/types/Question.ts:63
 msgid "Вес плода"
-msgstr ""
+msgstr "Plod vazni"
 
 #: src/types/Question.ts:17
 msgid "Возраст"
-msgstr ""
+msgstr "Yosh"
 
 #: src/types/Question.ts:155
 msgid "Воспалительные заболевания половых органов"
-msgstr ""
+msgstr "Poloviy organlar vositalari"
 
 #: src/pages/Select.tsx:36
 msgid "Врач"
@@ -127,115 +127,119 @@ msgstr "Doktor"
 
 #: src/types/Question.ts:23
 msgid "Гемоглобин"
-msgstr ""
+msgstr "Gemoglobin"
 
 #: src/types/Question.ts:116
 msgid "Гипертензивный синдром - это состояние повышенного артериального давления во время беременности (систолического АД ≥ 140 мм рту ст. и/или диастолического АД ≥ 90 мм рт. ст.). Преэклампсия — это состояние повышенного артериального давления (более 140/90 мм рт. ст.) после 20-й недели беременности, наличие белка в моче"
-msgstr ""
+msgstr "Gipertenzivnyy sindrom - bu sostoyanie povyshennogo arterialnogo davleniya vo vremya beremennosti (sistolicheskogo AD ≥ 140 mm rtu st. va/yoki diastolicheskogo AD ≥ 90 mm rt. st.). Preeklampsiya — eto sostoyanie povyshennogo arterialnogo davleniya (bolee 140/90 mm rt. st.) keyin 20-y nedeli beremennosti, nalichie belka v moche"
 
 #: src/types/Question.ts:115
 msgid "Гипертензивный синдром, преэклампсия"
-msgstr ""
+msgstr "Gipertenziv sindrom, preeklampsiya"
 
 #: src/types/Question.ts:196
 msgid "Грамм на литр крови"
-msgstr ""
+msgstr "Gramm na litr krov"
 
 #: src/types/Question.ts:76
 msgid "До 1500 мл"
-msgstr ""
+msgstr "1500 ml gacha"
 
 #: src/types/Question.ts:19
 msgid "До 19 лет"
-msgstr ""
+msgstr "19 yoshgacha"
 
 #: src/types/Question.ts:85
 msgid "До 3 родов"
-msgstr ""
+msgstr "3 tagacha tug'ilish"
 
 #: src/types/Question.ts:189
 msgid "До 33 секунд"
-msgstr ""
+msgstr "33 soniyagacha"
 
 #: src/types/Question.ts:66
 msgid "До 4000 грамм"
-msgstr ""
+msgstr "4000 grammgacha"
 
 #: src/types/Question.ts:103
 msgid "Единичный узел до 5 см"
-msgstr ""
+msgstr "5 sm gacha bo'lgan yagona tugun"
 
 #: src/types/Question.ts:47
 msgid "Заболевание без нарушения функции"
-msgstr ""
+msgstr "Disfunktsiyasiz kasallik"
 
 #: src/types/Question.ts:43
 msgid "Заболевания печени"
-msgstr ""
+msgstr "Jigar kasalliklari"
 
 #: src/types/Question.ts:145
 msgid "Заболевания почек"
-msgstr ""
+msgstr "Buyrak kasalliklari"
 
 #: src/types/Question.ts:48
 msgid "Заболевания с нарушением функции"
-msgstr ""
+msgstr "Disfunktsiyasi bo'lgan kasalliklar"
 
 #: src/types/Question.ts:135
 msgid "Заболевания сердечно-сосудистой системы"
-msgstr ""
+msgstr "Yurak-qon tomir kasalliklari"
 
 #: src/types/Question.ts:166
 msgid "Идиопатический легочный фиброз, фиброзирующий альвеолит при диффузных заболеваниях соединительной ткани, саркоидоз лёгких, экзогенный аллергический альвеолит, ХОБЛ, COVID-19, легочная артериальная гипертензия"
-msgstr ""
+msgstr "Idiopatik o‘pka fibrozi, diffuz biriktiruvchi to‘qima kasalliklarida fibrozlovchi alveolit, o‘pka sarkoidozi, ekzogen allergik alveolit, KOAH, COVID-19, o‘pka arterial gipertenziyasi"
 
 #: src/types/Question.ts:139
 msgid "Имеются, но без недостаточности кровообращения"
-msgstr ""
+msgstr "Mavjud, ammo qon aylanishining buzilishisiz"
 
 #: src/types/Question.ts:33
 msgid "ИМТ"
-msgstr ""
+msgstr "BMI"
 
 #: src/types/Question.ts:44
 msgid "Какие заболевания у вас есть?"
-msgstr ""
+msgstr "Sizda qanday kasalliklar bor?"
 
 #: src/types/Question.ts:34
 msgid "Какой ваш индекс массы тела?"
+msgstr "Sizning tana massasi indeksingiz nima?"
+
+#: src/types/Question.ts:24
+msgid "Какой у ваc гемоглобин в крови?"
 msgstr ""
 
 #: src/types/Question.ts:24
-msgid "Какой у вам гемоглобин в крови?"
-msgstr ""
+#~ msgid "Какой у вам гемоглобин в крови?"
+#~ msgstr ""
 
 #: src/types/Question.ts:176
 msgid "Клеток на литр крови"
-msgstr ""
+msgstr "Har litr qon uchun hujayralar"
 
 #: src/types/Question.ts:84
 msgid "Количество родов"
-msgstr ""
+msgstr "Tug‘ilganlar soni"
 
 #: src/types/Question.ts:89
 msgid "Кровотечения в родах"
-msgstr ""
+msgstr "Tug'ruq paytida qon ketish"
 
 #: src/types/Question.ts:119
 msgid "Легкой степени"
-msgstr ""
+msgstr "Yengil"
 
 #: src/types/Question.ts:90
 msgid "Любого характера"
-msgstr ""
+msgstr "Har qanday belgi"
 
 #: src/types/Question.ts:136
 msgid "Любые заболевания, связанные с сосудами или сердцем"
-msgstr ""
+msgstr "Qon tomirlari yoki yurak bilan bog'liq har qanday kasalliklar"
 
 #: src/types/Question.ts:180
 msgid "Менее 150 × 10⁹"
-msgstr ""
+msgstr "150 × 10⁹ dan kam"
 
 #: src/types/Question.ts:197
 msgid "Менее 200"
@@ -243,43 +247,43 @@ msgstr ""
 
 #: src/types/Question.ts:56
 msgid "Менее 4500 грамм"
-msgstr ""
+msgstr "200 dan kam"
 
 #: src/types/Question.ts:28
 msgid "Менее 69,0 г/л"
-msgstr ""
+msgstr "69,0 g/l dan kam"
 
 #: src/types/Question.ts:99
 msgid "Миома или рубец на матке"
-msgstr ""
+msgstr "Bachadondagi mioma yoki chandiq"
 
 #: src/types/Question.ts:100
 msgid "Миома это доброкачественная опухоль, происходящая из гладкомышечных клеток шейки или тела матки"
-msgstr ""
+msgstr "Mioma - bachadon bo'yni yoki bachadon tanasining silliq mushak hujayralaridan kelib chiqadigan yaxshi xulqli o'sma"
 
 #: src/types/Question.ts:73
 msgid "Многоводие"
-msgstr ""
+msgstr "Poligidramnioz"
 
 #: src/types/Question.ts:53
 msgid "Многоплодие"
-msgstr ""
+msgstr "Ko'p homiladorlik"
 
 #: src/types/Question.ts:54
 msgid "Многоплодие с массой плодов в сумме"
-msgstr ""
+msgstr "Umumiy meva vazniga ega bir nechta mevalar"
 
 #: src/types/Question.ts:83
 msgid "Многорожавшие"
-msgstr ""
+msgstr "Multiparous"
 
 #: src/types/Question.ts:104
 msgid "Множественные узлы более 5см или после кесарева сечения"
-msgstr ""
+msgstr "5 sm dan ortiq yoki sezaryen keyin bir nechta tugunlar"
 
 #: src/types/Question.ts:129
 msgid "Не прогрессирующая"
-msgstr ""
+msgstr "Progressiv emas"
 
 #: src/types/Question.ts:46
 #: src/types/Question.ts:92
@@ -288,15 +292,24 @@ msgstr ""
 #: src/types/Question.ts:138
 #: src/types/Question.ts:204
 msgid "Нет"
-msgstr ""
+msgstr "Yo'q"
+
+#: src/types/Question.ts:46
+#: src/types/Question.ts:92
+#: src/types/Question.ts:102
+#: src/types/Question.ts:111
+#: src/types/Question.ts:138
+#: src/types/Question.ts:204
+msgid "Нет"
+msgstr "Yo'q"
 
 #: src/types/Question.ts:148
 msgid "Нет, либо бессимптомная бактериурия"
-msgstr ""
+msgstr "Yo'q yoki asemptomatik bakteriuriya"
 
 #: src/types/Question.ts:188
 msgid "Норма"
-msgstr ""
+msgstr "Norma"
 
 #: src/pages/Result.tsx:52
 msgid "Обратиться к специалисту"
@@ -304,39 +317,39 @@ msgstr "Mutaxassis bilan bog'laning"
 
 #: src/types/Question.ts:74
 msgid "Объем жидкости"
-msgstr ""
+msgstr "Suyuqlik hajmi"
 
 #: src/types/Question.ts:175
 msgid "Объем тромбоцитов"
-msgstr ""
+msgstr "Trombositlar hajmi"
 
 #: src/types/Question.ts:160
 msgid "Острый эндометрит"
-msgstr ""
+msgstr "O‘tkir endometrit"
 
 #: src/types/Question.ts:77
 msgid "От 1500 до 2000 мл"
-msgstr ""
+msgstr "1500 dan 2000 ml gacha"
 
 #: src/types/Question.ts:36
 msgid "от 18,5 до 25 кг/м²"
-msgstr ""
+msgstr "25 dan 30 kg/m² gacha"
 
 #: src/types/Question.ts:37
 msgid "от 25 до 30 кг/м²"
-msgstr ""
+msgstr "25 dan 30 kg/m² gacha"
 
 #: src/types/Question.ts:85
 msgid "От 3 до 4 родов"
-msgstr ""
+msgstr "3 dan 4 tagacha tug'ilish"
 
 #: src/types/Question.ts:67
 msgid "От 4000 до 4500 грамм"
-msgstr ""
+msgstr "4000 dan 4500 grammgacha"
 
 #: src/types/Question.ts:57
 msgid "От 4500 до 5000 грамм"
-msgstr ""
+msgstr "4500 dan 5000 grammgacha"
 
 #: src/types/Question.ts:128
 msgid "Отсутствует"
@@ -345,7 +358,7 @@ msgstr ""
 #: src/types/Question.ts:118
 #: src/types/Question.ts:158
 msgid "Отсутствуют"
-msgstr ""
+msgstr "Yo'qolgan"
 
 #: src/pages/Select.tsx:45
 msgid "Пациент"
@@ -353,35 +366,35 @@ msgstr "Bemor"
 
 #: src/types/Question.ts:165
 msgid "Перенесенная вирусная инфекция дыхательных путей"
-msgstr ""
+msgstr "Avvalgi respirator virusli infektsiya"
 
 #: src/types/Question.ts:125
 msgid "ПОНРП"
-msgstr ""
+msgstr "PONR"
 
 #: src/types/Question.ts:126
 msgid "Преждевременная отслойка нормально расположенной плаценты. преждевременное (до рождения ребенка) отделение плаценты от стенки матки во время беременности или в I - II периодах родов"
-msgstr ""
+msgstr "Normalda joylashgan platsentaning muddatidan oldin ajralishi. Homiladorlik paytida yoki tug'ruqning birinchi - ikkinchi bosqichlarida yo'ldoshning bachadon devoridan muddatidan oldin (bola tug'ilishidan oldin) ajralishi"
 
 #: src/types/Question.ts:110
 msgid "Преждевременные роды это родовая деятельность, которая началась на сроке беременности от 22 недель до 36 недель и 6 дней"
-msgstr ""
+msgstr "Muddatidan oldin tug'ilish - homiladorlikning 22 haftasidan 36 haftasiga va 6 kunigacha bo'lgan tug'ruq"
 
 #: src/types/Question.ts:94
 msgid "При последних родах"
-msgstr ""
+msgstr "Oxirgi tug'ilishda"
 
 #: src/types/Question.ts:93
 msgid "При предыдущих беременностях"
-msgstr ""
+msgstr "Oldingi homiladorliklarda"
 
 #: src/types/Question.ts:130
 msgid "Прогрессирующая"
-msgstr ""
+msgstr "Progressiv"
 
 #: src/pages/Result.tsx:41
 msgid "Пройти заново"
-msgstr "Yana o'ting"
+msgstr "Qayta ijro etish"
 
 #: src/pages/Result.tsx:23
 #: src/pages/Result.tsx:45
@@ -390,24 +403,24 @@ msgstr "Natija"
 
 #: src/types/Question.ts:206
 msgid "С нарушением кровообращения"
-msgstr ""
+msgstr "Qon aylanish muammolari bilan"
 
 #: src/types/Question.ts:140
 #: src/types/Question.ts:150
 msgid "С нарушением функции"
-msgstr ""
+msgstr "Funktsiya buzilishi bilan"
 
 #: src/types/Question.ts:170
 msgid "С признаками  выраженной эндотелиальной дисфункции"
-msgstr ""
+msgstr "Endotelial disfunktsiyaning jiddiy buzilishi belgilari bilan"
 
 #: src/types/Question.ts:169
 msgid "С признаками эндотелиальной дисфункции легкой степени"
-msgstr ""
+msgstr "Endotelial disfunktsiyaning engil belgilari bilan"
 
 #: src/types/Question.ts:18
 msgid "Сколько вам полных лет?"
-msgstr ""
+msgstr "Siz necha yoshdasiz?"
 
 #: src/pages/Result.tsx:46
 msgid "Сохранить и отправить"
@@ -415,20 +428,20 @@ msgstr "Saqlash va yuborish"
 
 #: src/types/Question.ts:120
 msgid "Средней или тяжелой степени"
-msgstr ""
+msgstr "O‘rtacha yoki og‘ir"
 
 #: src/types/Question.ts:19
 msgid "Старше 35 лет"
-msgstr ""
+msgstr "35 yoshdan katta"
 
 #: src/types/Question.ts:195
 msgid "Фибриноген"
-msgstr ""
+msgid "Fibrinogen"
 
 #: src/types/Question.ts:159
 msgid "Хронический эндометрит"
-msgstr ""
+msgstr "Surunkali endometrit"
 
 #: src/pages/Select.tsx:21
 msgid "Это виртуальный акушерский консультант, который поможет вам определить риски акушерского кровотечения, а врачам предложит план лечения."
-msgstr "Bu akusherlik qon ketishi xavfini aniqlashga yordam beradigan va shifokorlarga davolanish rejasini taklif qiladigan virtual akusherlik maslahatchisi."
+msgstr "Bu akusherlik qon ketishi xavfini aniqlashga yordam beradigan va shifokorlarga davolash rejasini taklif qiladigan virtual akusherlik maslahatchisi."

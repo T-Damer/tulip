@@ -15,271 +15,275 @@ msgstr ""
 
 #: src/types/Question.ts:25
 #~ msgid " Менее 69,0 г/л"
-#~ msgstr ""
+#~ msgstr "Less than 69,0 g/l"
 
 #: src/types/Question.ts:179
 msgid "180-150 × 10⁹"
-msgstr ""
+msgstr "180-150 × 10⁹"
 
 #: src/types/Question.ts:178
 msgid "180–320 × 10⁹"
-msgstr ""
+msgstr "180–320 × 10⁹"
 
 #: src/types/Question.ts:111
 msgid "2-3"
-msgstr ""
+msgstr "2-3"
 
 #: src/types/Question.ts:19
 msgid "21-29 лет"
-msgstr ""
+msgstr "21-29 years"
 
 #: src/types/Question.ts:111
 msgid "3 и более"
-msgstr ""
+msgstr "3 or more"
 
 #: src/types/Question.ts:197
 msgid "300 - 200"
-msgstr ""
+msgstr "300 - 200"
 
 #: src/types/Question.ts:197
 msgid "400 – 300"
-msgstr ""
+msgstr "400 - 300"
 
 #: src/types/Question.ts:27
 msgid "99,0 – 70,0 г/л"
-msgstr ""
+msgstr "99,0 - 70,0 g/l"
 
 #: src/types/Question.ts:64
 msgid "Cостояние, при котором масса тела новорождённого значительно превышает норму для текущего возраста"
-msgstr ""
+msgstr "A condition in which the body weight of a newborn significantly exceeds the norm for its current age"
 
 #: src/types/Question.ts:109
 msgid "Аборты или преждевременные роды в анамнезе"
-msgstr ""
+msgstr "Abortion or premature birth in the history"
 
 #: src/types/Question.ts:186
 msgid "Активированное частичное тромбопластиновое время"
-msgstr ""
+msgstr "Activated partial thromboplastin time"
 
 #: src/types/Question.ts:185
 msgid "АЧТВ"
-msgstr ""
+msgstr "APTT"
 
 #: src/types/Question.ts:205
 msgid "Без нарушения кровообращения"
-msgstr ""
+msgstr "Without blood flow disturbance"
 
 #: src/types/Question.ts:149
 msgid "Без нарушения функции"
-msgstr ""
+msgstr "Without function disturbance"
 
 #: src/types/Question.ts:168
 msgid "Без эндотелиальной дисфункции"
-msgstr ""
+msgstr "Without endothelial dysfunction"
 
 #: src/types/Question.ts:26
 msgid "Более 100 г/л"
-msgstr ""
+msgstr "More than 100 g/l"
 
 #: src/types/Question.ts:78
 msgid "Более 2000 мл"
-msgstr ""
+msgstr "More than 2000 ml"
 
 #: src/types/Question.ts:38
 msgid "Более 30 кг/м²"
-msgstr ""
+msgstr "More than 30 kg/m²"
 
 #: src/types/Question.ts:190
 msgid "Более 33 секунд"
-msgstr ""
+msgstr "More than 33 seconds"
 
 #: src/types/Question.ts:85
 msgid "Более 4 родов"
-msgstr ""
+msgstr "More than 4 births"
 
 #: src/types/Question.ts:68
 msgid "Более 4500 грамм"
-msgstr ""
+msgstr "More than 4500 grams"
 
 #: src/types/Question.ts:58
 msgid "Более 5000 грамм"
-msgstr ""
+msgstr "More than 5000 grams"
 
 #: src/types/Question.ts:201
 msgid "Варикозная болезнь"
-msgstr ""
+msgstr "Varicose disease"
 
 #: src/types/Question.ts:63
 msgid "Вес плода"
-msgstr ""
+msgstr "Weight of the fetus"
 
 #: src/types/Question.ts:17
 msgid "Возраст"
-msgstr ""
+msgstr "Age"
 
 #: src/types/Question.ts:155
 msgid "Воспалительные заболевания половых органов"
-msgstr ""
+msgstr "Inflammatory diseases of the genital organs"
 
 #: src/pages/Select.tsx:36
 msgid "Врач"
-msgstr "Врач"
+msgstr "Doctor"
 
 #: src/types/Question.ts:23
 msgid "Гемоглобин"
-msgstr ""
+msgstr "Hemoglobin"
 
 #: src/types/Question.ts:116
 msgid "Гипертензивный синдром - это состояние повышенного артериального давления во время беременности (систолического АД ≥ 140 мм рту ст. и/или диастолического АД ≥ 90 мм рт. ст.). Преэклампсия — это состояние повышенного артериального давления (более 140/90 мм рт. ст.) после 20-й недели беременности, наличие белка в моче"
-msgstr ""
+msgstr "Hypertensive syndrome is a condition of high blood pressure during pregnancy (systolic BP ≥ 140 mm Hg and/or diastolic BP ≥ 90 mm Hg). Preeclampsia is a condition of high blood pressure (more than 140/90 mm Hg) after the 20th week of pregnancy, the presence of protein in the urine"
 
 #: src/types/Question.ts:115
 msgid "Гипертензивный синдром, преэклампсия"
-msgstr ""
+msgstr "Hypertensive syndrome, preeclampsia"
 
 #: src/types/Question.ts:196
 msgid "Грамм на литр крови"
-msgstr ""
+msgstr "Grams per liter of blood"
 
 #: src/types/Question.ts:76
 msgid "До 1500 мл"
-msgstr ""
+msgstr "Less than 1500 ml"
 
 #: src/types/Question.ts:19
 msgid "До 19 лет"
-msgstr ""
+msgstr "Less than 19 years"
 
 #: src/types/Question.ts:85
 msgid "До 3 родов"
-msgstr ""
+msgstr "Less than 3 births"
 
 #: src/types/Question.ts:189
 msgid "До 33 секунд"
-msgstr ""
+msgstr "Less than 33 seconds"
 
 #: src/types/Question.ts:66
 msgid "До 4000 грамм"
-msgstr ""
+msgstr "Less than 4000 grams"
 
 #: src/types/Question.ts:103
 msgid "Единичный узел до 5 см"
-msgstr ""
+msgstr "Single nodule less than 5 cm"
 
 #: src/types/Question.ts:47
 msgid "Заболевание без нарушения функции"
-msgstr ""
+msgstr "Disease without function disturbance"
 
 #: src/types/Question.ts:43
 msgid "Заболевания печени"
-msgstr ""
+msgstr "Liver diseases"
 
 #: src/types/Question.ts:145
 msgid "Заболевания почек"
-msgstr ""
+msgstr "Kidney diseases"
 
 #: src/types/Question.ts:48
 msgid "Заболевания с нарушением функции"
-msgstr ""
+msgstr "Diseases with function disturbance"
 
 #: src/types/Question.ts:135
 msgid "Заболевания сердечно-сосудистой системы"
-msgstr ""
+msgstr "Cardiovascular diseases"
 
 #: src/types/Question.ts:166
 msgid "Идиопатический легочный фиброз, фиброзирующий альвеолит при диффузных заболеваниях соединительной ткани, саркоидоз лёгких, экзогенный аллергический альвеолит, ХОБЛ, COVID-19, легочная артериальная гипертензия"
-msgstr ""
+msgstr "Idiopathic pulmonary fibrosis, fibrotic alveolitis in diffuse connective tissue diseases, sarcoidosis, exogenous allergic alveolitis, HOB, COVID-19, pulmonary arterial hypertension"
 
 #: src/types/Question.ts:139
 msgid "Имеются, но без недостаточности кровообращения"
-msgstr ""
+msgstr "Present, but without blood flow disturbance"
 
 #: src/types/Question.ts:33
 msgid "ИМТ"
-msgstr ""
+msgstr "BMI"
 
 #: src/types/Question.ts:44
 msgid "Какие заболевания у вас есть?"
-msgstr ""
+msgstr "What diseases do you have?"
 
 #: src/types/Question.ts:34
 msgid "Какой ваш индекс массы тела?"
-msgstr ""
+msgstr "What is your body mass index?"
 
 #: src/types/Question.ts:24
-msgid "Какой у вам гемоглобин в крови?"
-msgstr ""
+msgid "Какой у ваc гемоглобин в крови?"
+msgstr "What is your hemoglobin level?"
+
+#: src/types/Question.ts:24
+#~ msgid "Какой у вам гемоглобин в крови?"
+#~ msgstr ""
 
 #: src/types/Question.ts:176
 msgid "Клеток на литр крови"
-msgstr ""
+msgstr "Cells per liter of blood"
 
 #: src/types/Question.ts:84
 msgid "Количество родов"
-msgstr ""
+msgstr "Number of births"
 
 #: src/types/Question.ts:89
 msgid "Кровотечения в родах"
-msgstr ""
+msgstr "Bleeding during childbirth"
 
 #: src/types/Question.ts:119
 msgid "Легкой степени"
-msgstr ""
+msgstr "Mild"
 
 #: src/types/Question.ts:90
 msgid "Любого характера"
-msgstr ""
+msgstr "Any character"
 
 #: src/types/Question.ts:136
 msgid "Любые заболевания, связанные с сосудами или сердцем"
-msgstr ""
+msgstr "Any diseases associated with blood vessels or heart"
 
 #: src/types/Question.ts:180
 msgid "Менее 150 × 10⁹"
-msgstr ""
+msgstr "Less than 150 × 10⁹"
 
 #: src/types/Question.ts:197
 msgid "Менее 200"
-msgstr ""
+msgstr "Less than 200"
 
 #: src/types/Question.ts:56
 msgid "Менее 4500 грамм"
-msgstr ""
+msgstr "Less than 4500 grams"
 
 #: src/types/Question.ts:28
 msgid "Менее 69,0 г/л"
-msgstr ""
+msgstr "Less than 69,0 g/l"
 
 #: src/types/Question.ts:99
 msgid "Миома или рубец на матке"
-msgstr ""
+msgstr "Uterine fibroid or cervical polyp"
 
 #: src/types/Question.ts:100
 msgid "Миома это доброкачественная опухоль, происходящая из гладкомышечных клеток шейки или тела матки"
-msgstr ""
+msgstr "Uterine fibroid is a benign tumor that develops from smooth muscle cells in the uterus or cervix"
 
 #: src/types/Question.ts:73
 msgid "Многоводие"
-msgstr ""
+msgstr "Polyuria"
 
 #: src/types/Question.ts:53
 msgid "Многоплодие"
-msgstr ""
+msgstr "Multiple pregnancy"
 
 #: src/types/Question.ts:54
 msgid "Многоплодие с массой плодов в сумме"
-msgstr ""
+msgstr "Multiple pregnancy with a total weight of the fetus"
 
 #: src/types/Question.ts:83
 msgid "Многорожавшие"
-msgstr ""
+msgstr "Multiparous"
 
 #: src/types/Question.ts:104
 msgid "Множественные узлы более 5см или после кесарева сечения"
-msgstr ""
+msgstr "Multiple nodes greater than 5cm or after cesarean section"
 
 #: src/types/Question.ts:129
 msgid "Не прогрессирующая"
-msgstr ""
+msgstr "Non-progressive"
 
 #: src/types/Question.ts:46
 #: src/types/Question.ts:92
@@ -288,147 +292,147 @@ msgstr ""
 #: src/types/Question.ts:138
 #: src/types/Question.ts:204
 msgid "Нет"
-msgstr ""
+msgstr "No"
 
 #: src/types/Question.ts:148
 msgid "Нет, либо бессимптомная бактериурия"
-msgstr ""
+msgstr "No, or asymptomatic bacteriuria"
 
 #: src/types/Question.ts:188
 msgid "Норма"
-msgstr ""
+msgstr "Normal"
 
 #: src/pages/Result.tsx:52
 msgid "Обратиться к специалисту"
-msgstr "Обратиться к специалисту"
+msgstr "Consult a specialist"
 
 #: src/types/Question.ts:74
 msgid "Объем жидкости"
-msgstr ""
+msgstr "Volume of fluid"
 
 #: src/types/Question.ts:175
 msgid "Объем тромбоцитов"
-msgstr ""
+msgstr "Volume of platelets"
 
 #: src/types/Question.ts:160
 msgid "Острый эндометрит"
-msgstr ""
+msgstr "Acute endometritis"
 
 #: src/types/Question.ts:77
 msgid "От 1500 до 2000 мл"
-msgstr ""
+msgstr "From 1500 to 2000 ml"
 
 #: src/types/Question.ts:36
 msgid "от 18,5 до 25 кг/м²"
-msgstr ""
+msgstr "From 18.5 to 25 kg/m²"
 
 #: src/types/Question.ts:37
 msgid "от 25 до 30 кг/м²"
-msgstr ""
+msgstr "From 25 to 30 kg/m²"
 
 #: src/types/Question.ts:85
 msgid "От 3 до 4 родов"
-msgstr ""
+msgstr "From 3 to 4 births"
 
 #: src/types/Question.ts:67
 msgid "От 4000 до 4500 грамм"
-msgstr ""
+msgstr "From 4000 to 4500 grams"
 
 #: src/types/Question.ts:57
 msgid "От 4500 до 5000 грамм"
-msgstr ""
+msgstr "From 4500 to 5000 grams"
 
 #: src/types/Question.ts:128
 msgid "Отсутствует"
-msgstr ""
+msgstr "Absent"
 
 #: src/types/Question.ts:118
 #: src/types/Question.ts:158
 msgid "Отсутствуют"
-msgstr ""
+msgstr "Absent"
 
 #: src/pages/Select.tsx:45
 msgid "Пациент"
-msgstr "Пациент"
+msgstr "Patient"
 
 #: src/types/Question.ts:165
 msgid "Перенесенная вирусная инфекция дыхательных путей"
-msgstr ""
+msgstr "Transmitted viral infection of the respiratory tract"
 
 #: src/types/Question.ts:125
 msgid "ПОНРП"
-msgstr ""
+msgstr "PDoNLP"
 
 #: src/types/Question.ts:126
 msgid "Преждевременная отслойка нормально расположенной плаценты. преждевременное (до рождения ребенка) отделение плаценты от стенки матки во время беременности или в I - II периодах родов"
-msgstr ""
+msgstr "Premature detachment of normally located placenta. Premature (before birth of the child) separation of the placenta from the wall of the uterus during pregnancy or in the first two periods of labor"
 
 #: src/types/Question.ts:110
 msgid "Преждевременные роды это родовая деятельность, которая началась на сроке беременности от 22 недель до 36 недель и 6 дней"
-msgstr ""
+msgstr "Preterm labor is labor that begins between 22 weeks and 36 weeks and 6 days of pregnancy"
 
 #: src/types/Question.ts:94
 msgid "При последних родах"
-msgstr ""
+msgstr "At the last birth"
 
 #: src/types/Question.ts:93
 msgid "При предыдущих беременностях"
-msgstr ""
+msgstr "At previous pregnancies"
 
 #: src/types/Question.ts:130
 msgid "Прогрессирующая"
-msgstr ""
+msgstr "Progressive"
 
 #: src/pages/Result.tsx:41
 msgid "Пройти заново"
-msgstr "Пройти заново"
+msgstr "Retry"
 
 #: src/pages/Result.tsx:23
 #: src/pages/Result.tsx:45
 msgid "Результат"
-msgstr "Результат"
+msgstr "Result"
 
 #: src/types/Question.ts:206
 msgid "С нарушением кровообращения"
-msgstr "С нарушением кровообращения"
+msgstr "With blood flow disturbance"
 
 #: src/types/Question.ts:140
 #: src/types/Question.ts:150
 msgid "С нарушением функции"
-msgstr "С нарушением функции"
+msgstr "With function disturbance"
 
 #: src/types/Question.ts:170
 msgid "С признаками  выраженной эндотелиальной дисфункции"
-msgstr "С признаками  выраженной эндотелиальной дисфункции"
+msgstr "With signs of severe endothelial dysfunction"
 
 #: src/types/Question.ts:169
 msgid "С признаками эндотелиальной дисфункции легкой степени"
-msgstr "С признаками эндотелиальной дисфункции легкой степени"
+msgstr "With signs of mild endothelial dysfunction"
 
 #: src/types/Question.ts:18
 msgid "Сколько вам полных лет?"
-msgstr "Сколько вам полных лет?"
+msgstr "How many full years do you have?"
 
 #: src/pages/Result.tsx:46
 msgid "Сохранить и отправить"
-msgstr "Сохранить и отправить"
+msgstr "Save and send"
 
 #: src/types/Question.ts:120
 msgid "Средней или тяжелой степени"
-msgstr "Средней или тяжелой степени"
+msgstr "Medium or severe degree"
 
 #: src/types/Question.ts:19
 msgid "Старше 35 лет"
-msgstr "Старше 35 лет"
+msgstr "Over 35 years"
 
 #: src/types/Question.ts:195
 msgid "Фибриноген"
-msgstr "Фибриноген"
+msgstr "Fibrinogen"
 
 #: src/types/Question.ts:159
 msgid "Хронический эндометрит"
-msgstr "Хронический эндометрит"
+msgstr "Chronic endometritis"
 
 #: src/pages/Select.tsx:21
 msgid "Это виртуальный акушерский консультант, который поможет вам определить риски акушерского кровотечения, а врачам предложит план лечения."
-msgstr "Это виртуальный акушерский консультант, который поможет вам определить риски акушерского кровотечения, а врачам предложит план лечения."
+msgstr "This is a virtual obstetric consultant who will help you identify the risks of obstetric bleeding and will offer doctors a treatment plan."

@@ -21,7 +21,7 @@ export const questions: Question[] = [
   {
     id: 1,
     title: t`Гемоглобин`,
-    description: t`Какой у вам гемоглобин в крови?`,
+    description: t`Какой у ваc гемоглобин в крови?`,
     answers: {
       0: t`Более 100 г/л`,
       1: t`99,0 – 70,0 г/л`,
