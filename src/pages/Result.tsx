@@ -49,7 +49,7 @@ export default function ResultPage() {
             }
           >{t`Сохранить и отправить`}</button>
 
-          {sum > 10 ? (
+          {!isDoc && sum > 10 ? (
             <button
               className="btn btn-xl btn-accent rounded-3xl py-8 leading-6"
               onClick={() => window.open(doctorLink, '_blank')}

@@ -1,9 +1,10 @@
 import 'swiper/css'
 import 'swiper/css/effect-cards'
 
+import isDocStore from 'atoms/isDocStore'
 import patientsDataStore from 'atoms/patientsDataStore'
 import useQuestions from 'helpers/hooks/useQuestions'
-import { useAtom } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router'
 import { A11y, Controller, EffectCards } from 'swiper/modules'
@@ -15,6 +16,7 @@ export default function QuestionSwiper() {
   const [atom, setAtom] = useAtom(patientsDataStore)
   const swiperRef = useRef<SwiperRef>(null)
   const questions = useQuestions()
+  const isDoc = useAtomValue(isDocStore)
 
   const handleAnswer = useCallback(
     (value: number, questionIndex: number) => {
@@ -69,6 +71,7 @@ export default function QuestionSwiper() {
             showBackButton={index > 0}
             onBack={() => swiperRef.current?.swiper.slidePrev()}
             onClick={(value) => handleAnswer(value, index)}
+            isDoc={isDoc}
           />
         </SwiperSlide>
       ))}

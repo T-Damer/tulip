@@ -1,4 +1,5 @@
 import { useLingui } from '@lingui/react/macro'
+import BmiCalculator from 'components/BmiCalculator'
 import { Question } from 'types/Question'
 
 export default function useQuestions() {
@@ -9,12 +10,14 @@ export default function useQuestions() {
       id: 0,
       title: t`Возраст`,
       description: t`Сколько вам полных лет?`,
+      docDescription: t`Сколько пациенту полных лет?`,
       answers: { 0: t`21-29 лет`, 1: t`До 19 лет`, 2: t`Старше 35 лет` },
     },
     {
       id: 1,
       title: t`Гемоглобин`,
       description: t`Какой у ваc гемоглобин в крови?`,
+      docDescription: t`Какой у пациента гемоглобин в крови?`,
       answers: {
         0: t`Более 100 г/л`,
         1: t`99,0 – 70,0 г/л`,
@@ -25,6 +28,8 @@ export default function useQuestions() {
       id: 2,
       title: t`ИМТ`,
       description: t`Какой ваш индекс массы тела?`,
+      docDescription: t`Какой у пациента индекс массы тела?`,
+      extraElement: <BmiCalculator />,
       answers: {
         0: t`от 18,5 до 25 кг/м²`,
         1: t`от 25 до 30 кг/м²`,
@@ -35,6 +40,7 @@ export default function useQuestions() {
       id: 3,
       title: t`Заболевания печени`,
       description: t`Какие заболевания у вас есть?`,
+      docDescription: t`Какие заболевания есть у пациента?`,
       answers: {
         0: t`Нет`,
         1: t`Заболевание без нарушения функции`,
@@ -192,7 +198,7 @@ export default function useQuestions() {
     {
       id: 20,
       title: t`Варикозная болезнь`,
-      description: '',
+      description: 'Это расширение вен ног',
       answers: {
         0: t`Нет`,
         1: t`Без нарушения кровообращения`,

@@ -8,6 +8,7 @@ interface QuestionCardProps {
   selectedAnswerId?: number | undefined
   showBackButton?: boolean
   onBack?: () => void
+  isDoc?: boolean
 }
 
 export default function QuestionCard({
@@ -15,7 +16,8 @@ export default function QuestionCard({
   onClick,
   selectedAnswerId,
   showBackButton = false,
-  onBack = () => {},
+  onBack,
+  isDoc,
 }: QuestionCardProps) {
   return (
     <div className="flex h-full flex-col justify-between gap-4">
@@ -33,10 +35,11 @@ export default function QuestionCard({
             {question.title}
           </h2>
           <p className="whitespace-pre-wrap text-black italic">
-            {question.description}
+            {(isDoc && question.docDescription) || question.description}
           </p>
         </div>
       </div>
+      {question.extraElement}
       <hr className="h-px w-full text-black" />
       <div className="flex flex-wrap gap-2">
         {Object.entries(question.answers).map(([key, value]) => (

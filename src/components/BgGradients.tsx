@@ -87,7 +87,7 @@ export const BgGradients = ({
   }, [])
 
   return (
-    <div className="absolute inset-0 h-dvh w-dvw">
+    <div className="absolute inset-0 h-dvh w-dvw overflow-hidden">
       <div
         className={cn(
           'relative h-full w-full overflow-hidden bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]',

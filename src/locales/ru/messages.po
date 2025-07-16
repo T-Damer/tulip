@@ -13,47 +13,47 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/helpers/hooks/useQuestions.ts:172
+#: src/helpers/hooks/useQuestions.tsx:178
 msgid "180-150 × 10⁹"
 msgstr "180-150 × 10⁹"
 
-#: src/helpers/hooks/useQuestions.ts:171
+#: src/helpers/hooks/useQuestions.tsx:177
 msgid "180–320 × 10⁹"
 msgstr "180–320 × 10⁹"
 
-#: src/helpers/hooks/useQuestions.ts:104
+#: src/helpers/hooks/useQuestions.tsx:110
 msgid "2-3"
 msgstr "2-3"
 
-#: src/helpers/hooks/useQuestions.ts:12
+#: src/helpers/hooks/useQuestions.tsx:14
 msgid "21-29 лет"
 msgstr "21-29 лет"
 
-#: src/helpers/hooks/useQuestions.ts:104
+#: src/helpers/hooks/useQuestions.tsx:110
 msgid "3 и более"
 msgstr "3 и более"
 
-#: src/helpers/hooks/useQuestions.ts:190
+#: src/helpers/hooks/useQuestions.tsx:196
 msgid "300 - 200"
 msgstr "300 - 200"
 
-#: src/helpers/hooks/useQuestions.ts:190
+#: src/helpers/hooks/useQuestions.tsx:196
 msgid "400 – 300"
 msgstr "400 – 300"
 
-#: src/helpers/hooks/useQuestions.ts:20
+#: src/helpers/hooks/useQuestions.tsx:23
 msgid "99,0 – 70,0 г/л"
 msgstr "99,0 – 70,0 г/л"
 
-#: src/helpers/hooks/useQuestions.ts:57
+#: src/helpers/hooks/useQuestions.tsx:63
 msgid "Cостояние, при котором масса тела новорождённого значительно превышает норму для текущего возраста"
 msgstr "Cостояние, при котором масса тела новорождённого значительно превышает норму для текущего возраста"
 
-#: src/helpers/hooks/useQuestions.ts:102
+#: src/helpers/hooks/useQuestions.tsx:108
 msgid "Аборты или преждевременные роды в анамнезе"
 msgstr "Аборты или преждевременные роды в анамнезе"
 
-#: src/helpers/hooks/useQuestions.ts:179
+#: src/helpers/hooks/useQuestions.tsx:185
 msgid "Активированное частичное тромбопластиновое время"
 msgstr "Активированное частичное тромбопластиновое время"
 
@@ -62,19 +62,19 @@ msgstr "Активированное частичное тромбопласти
 msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
 msgstr "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
 
-#: src/helpers/hooks/useQuestions.ts:178
+#: src/helpers/hooks/useQuestions.tsx:184
 msgid "АЧТВ"
 msgstr "АЧТВ"
 
-#: src/helpers/hooks/useQuestions.ts:198
+#: src/helpers/hooks/useQuestions.tsx:204
 msgid "Без нарушения кровообращения"
 msgstr "Без нарушения кровообращения"
 
-#: src/helpers/hooks/useQuestions.ts:142
+#: src/helpers/hooks/useQuestions.tsx:148
 msgid "Без нарушения функции"
 msgstr "Без нарушения функции"
 
-#: src/helpers/hooks/useQuestions.ts:161
+#: src/helpers/hooks/useQuestions.tsx:167
 msgid "Без эндотелиальной дисфункции"
 msgstr "Без эндотелиальной дисфункции"
 
@@ -82,31 +82,31 @@ msgstr "Без эндотелиальной дисфункции"
 msgid "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
 msgstr "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
 
-#: src/helpers/hooks/useQuestions.ts:19
+#: src/helpers/hooks/useQuestions.tsx:22
 msgid "Более 100 г/л"
 msgstr "Более 100 г/л"
 
-#: src/helpers/hooks/useQuestions.ts:71
+#: src/helpers/hooks/useQuestions.tsx:77
 msgid "Более 2000 мл"
 msgstr "Более 2000 мл"
 
-#: src/helpers/hooks/useQuestions.ts:31
+#: src/helpers/hooks/useQuestions.tsx:36
 msgid "Более 30 кг/м²"
 msgstr "Более 30 кг/м²"
 
-#: src/helpers/hooks/useQuestions.ts:183
+#: src/helpers/hooks/useQuestions.tsx:189
 msgid "Более 33 секунд"
 msgstr "Более 33 секунд"
 
-#: src/helpers/hooks/useQuestions.ts:78
+#: src/helpers/hooks/useQuestions.tsx:84
 msgid "Более 4 родов"
 msgstr "Более 4 родов"
 
-#: src/helpers/hooks/useQuestions.ts:61
+#: src/helpers/hooks/useQuestions.tsx:67
 msgid "Более 4500 грамм"
 msgstr "Более 4500 грамм"
 
-#: src/helpers/hooks/useQuestions.ts:51
+#: src/helpers/hooks/useQuestions.tsx:57
 msgid "Более 5000 грамм"
 msgstr "Более 5000 грамм"
 
@@ -115,19 +115,24 @@ msgstr "Более 5000 грамм"
 msgid "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
 msgstr "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
 
-#: src/helpers/hooks/useQuestions.ts:194
+#: src/helpers/hooks/useQuestions.tsx:200
 msgid "Варикозная болезнь"
 msgstr "Варикозная болезнь"
 
-#: src/helpers/hooks/useQuestions.ts:56
+#: src/components/BmiCalculator.tsx:36
+#: src/components/BmiCalculator.tsx:42
+msgid "Вес (кг)"
+msgstr "Вес (кг)"
+
+#: src/helpers/hooks/useQuestions.tsx:62
 msgid "Вес плода"
 msgstr "Вес плода"
 
-#: src/helpers/hooks/useQuestions.ts:10
+#: src/helpers/hooks/useQuestions.tsx:11
 msgid "Возраст"
 msgstr "Возраст"
 
-#: src/helpers/hooks/useQuestions.ts:148
+#: src/helpers/hooks/useQuestions.tsx:154
 msgid "Воспалительные заболевания половых органов"
 msgstr "Воспалительные заболевания половых органов"
 
@@ -139,19 +144,19 @@ msgstr "Врач"
 msgid "Высокая степень риска акушерского кровотечения"
 msgstr "Высокая степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useQuestions.ts:16
+#: src/helpers/hooks/useQuestions.tsx:18
 msgid "Гемоглобин"
 msgstr "Гемоглобин"
 
-#: src/helpers/hooks/useQuestions.ts:109
+#: src/helpers/hooks/useQuestions.tsx:115
 msgid "Гипертензивный синдром - это состояние повышенного артериального давления во время беременности (систолического АД ≥ 140 мм рту ст. и/или диастолического АД ≥ 90 мм рт. ст.). Преэклампсия — это состояние повышенного артериального давления (более 140/90 мм рт. ст.) после 20-й недели беременности, наличие белка в моче"
 msgstr "Гипертензивный синдром - это состояние повышенного артериального давления во время беременности (систолического АД ≥ 140 мм рту ст. и/или диастолического АД ≥ 90 мм рт. ст.). Преэклампсия — это состояние повышенного артериального давления (более 140/90 мм рт. ст.) после 20-й недели беременности, наличие белка в моче"
 
-#: src/helpers/hooks/useQuestions.ts:108
+#: src/helpers/hooks/useQuestions.tsx:114
 msgid "Гипертензивный синдром, преэклампсия"
 msgstr "Гипертензивный синдром, преэклампсия"
 
-#: src/helpers/hooks/useQuestions.ts:189
+#: src/helpers/hooks/useQuestions.tsx:195
 msgid "Грамм на литр крови"
 msgstr "Грамм на литр крови"
 
@@ -159,87 +164,99 @@ msgstr "Грамм на литр крови"
 msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
 msgstr "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
 
-#: src/helpers/hooks/useQuestions.ts:69
+#: src/helpers/hooks/useQuestions.tsx:75
 msgid "До 1500 мл"
 msgstr "До 1500 мл"
 
-#: src/helpers/hooks/useQuestions.ts:12
+#: src/helpers/hooks/useQuestions.tsx:14
 msgid "До 19 лет"
 msgstr "До 19 лет"
 
-#: src/helpers/hooks/useQuestions.ts:78
+#: src/helpers/hooks/useQuestions.tsx:84
 msgid "До 3 родов"
 msgstr "До 3 родов"
 
-#: src/helpers/hooks/useQuestions.ts:182
+#: src/helpers/hooks/useQuestions.tsx:188
 msgid "До 33 секунд"
 msgstr "До 33 секунд"
 
-#: src/helpers/hooks/useQuestions.ts:59
+#: src/helpers/hooks/useQuestions.tsx:65
 msgid "До 4000 грамм"
 msgstr "До 4000 грамм"
 
-#: src/helpers/hooks/useQuestions.ts:96
+#: src/helpers/hooks/useQuestions.tsx:102
 msgid "Единичный узел до 5 см"
 msgstr "Единичный узел до 5 см"
 
-#: src/helpers/hooks/useQuestions.ts:40
+#: src/helpers/hooks/useQuestions.tsx:46
 msgid "Заболевание без нарушения функции"
 msgstr "Заболевание без нарушения функции"
 
-#: src/helpers/hooks/useQuestions.ts:36
+#: src/helpers/hooks/useQuestions.tsx:41
 msgid "Заболевания печени"
 msgstr "Заболевания печени"
 
-#: src/helpers/hooks/useQuestions.ts:138
+#: src/helpers/hooks/useQuestions.tsx:144
 msgid "Заболевания почек"
 msgstr "Заболевания почек"
 
-#: src/helpers/hooks/useQuestions.ts:41
+#: src/helpers/hooks/useQuestions.tsx:47
 msgid "Заболевания с нарушением функции"
 msgstr "Заболевания с нарушением функции"
 
-#: src/helpers/hooks/useQuestions.ts:128
+#: src/helpers/hooks/useQuestions.tsx:134
 msgid "Заболевания сердечно-сосудистой системы"
 msgstr "Заболевания сердечно-сосудистой системы"
 
-#: src/helpers/hooks/useQuestions.ts:159
+#: src/helpers/hooks/useQuestions.tsx:165
 msgid "Идиопатический легочный фиброз, фиброзирующий альвеолит при диффузных заболеваниях соединительной ткани, саркоидоз лёгких, экзогенный аллергический альвеолит, ХОБЛ, COVID-19, легочная артериальная гипертензия"
 msgstr "Идиопатический легочный фиброз, фиброзирующий альвеолит при диффузных заболеваниях соединительной ткани, саркоидоз лёгких, экзогенный аллергический альвеолит, ХОБЛ, COVID-19, легочная артериальная гипертензия"
 
-#: src/helpers/hooks/useQuestions.ts:132
+#: src/helpers/hooks/useQuestions.tsx:138
 msgid "Имеются, но без недостаточности кровообращения"
 msgstr "Имеются, но без недостаточности кровообращения"
 
-#: src/helpers/hooks/useQuestions.ts:26
+#: src/helpers/hooks/useQuestions.tsx:29
 msgid "ИМТ"
 msgstr "ИМТ"
 
-#: src/helpers/hooks/useQuestions.ts:37
+#: src/helpers/hooks/useQuestions.tsx:43
+msgid "Какие заболевания есть у пациента?"
+msgstr "Какие заболевания есть у пациента?"
+
+#: src/helpers/hooks/useQuestions.tsx:42
 msgid "Какие заболевания у вас есть?"
 msgstr "Какие заболевания у вас есть?"
 
-#: src/helpers/hooks/useQuestions.ts:27
+#: src/helpers/hooks/useQuestions.tsx:30
 msgid "Какой ваш индекс массы тела?"
 msgstr "Какой ваш индекс массы тела?"
 
-#: src/helpers/hooks/useQuestions.ts:17
+#: src/helpers/hooks/useQuestions.tsx:19
 msgid "Какой у ваc гемоглобин в крови?"
 msgstr "Какой у ваc гемоглобин в крови?"
 
-#: src/helpers/hooks/useQuestions.ts:169
+#: src/helpers/hooks/useQuestions.tsx:20
+msgid "Какой у пациента гемоглобин в крови?"
+msgstr "Какой у пациента гемоглобин в крови?"
+
+#: src/helpers/hooks/useQuestions.tsx:31
+msgid "Какой у пациента индекс массы тела?"
+msgstr "Какой у пациента индекс масссы тела?"
+
+#: src/helpers/hooks/useQuestions.tsx:175
 msgid "Клеток на литр крови"
 msgstr "Клеток на литр крови"
 
-#: src/helpers/hooks/useQuestions.ts:77
+#: src/helpers/hooks/useQuestions.tsx:83
 msgid "Количество родов"
 msgstr "Количество родов"
 
-#: src/helpers/hooks/useQuestions.ts:82
+#: src/helpers/hooks/useQuestions.tsx:88
 msgid "Кровотечения в родах"
 msgstr "Кровотечения в родах"
 
-#: src/helpers/hooks/useQuestions.ts:112
+#: src/helpers/hooks/useQuestions.tsx:118
 msgid "Легкой степени"
 msgstr "Легкой степени"
 
@@ -247,59 +264,59 @@ msgstr "Легкой степени"
 msgid "Лечение"
 msgstr "Лечение"
 
-#: src/helpers/hooks/useQuestions.ts:83
+#: src/helpers/hooks/useQuestions.tsx:89
 msgid "Любого характера"
 msgstr "Любого характера"
 
-#: src/helpers/hooks/useQuestions.ts:129
+#: src/helpers/hooks/useQuestions.tsx:135
 msgid "Любые заболевания, связанные с сосудами или сердцем"
 msgstr "Любые заболевания, связанные с сосудами или сердцем"
 
-#: src/helpers/hooks/useQuestions.ts:173
+#: src/helpers/hooks/useQuestions.tsx:179
 msgid "Менее 150 × 10⁹"
 msgstr "Менее 150 × 10⁹"
 
-#: src/helpers/hooks/useQuestions.ts:190
+#: src/helpers/hooks/useQuestions.tsx:196
 msgid "Менее 200"
 msgstr "Менее 200"
 
-#: src/helpers/hooks/useQuestions.ts:49
+#: src/helpers/hooks/useQuestions.tsx:55
 msgid "Менее 4500 грамм"
 msgstr "Менее 4500 грамм"
 
-#: src/helpers/hooks/useQuestions.ts:21
+#: src/helpers/hooks/useQuestions.tsx:24
 msgid "Менее 69,0 г/л"
 msgstr "Менее 69,0 г/л"
 
-#: src/helpers/hooks/useQuestions.ts:92
+#: src/helpers/hooks/useQuestions.tsx:98
 msgid "Миома или рубец на матке"
 msgstr "Миома или рубец на матке"
 
-#: src/helpers/hooks/useQuestions.ts:93
+#: src/helpers/hooks/useQuestions.tsx:99
 msgid "Миома это доброкачественная опухоль, происходящая из гладкомышечных клеток шейки или тела матки"
 msgstr "Миома это доброкачественная опухоль, происходящая из гладкомышечных клеток шейки или тела матки"
 
-#: src/helpers/hooks/useQuestions.ts:66
+#: src/helpers/hooks/useQuestions.tsx:72
 msgid "Многоводие"
 msgstr "Многоводие"
 
-#: src/helpers/hooks/useQuestions.ts:46
+#: src/helpers/hooks/useQuestions.tsx:52
 msgid "Многоплодие"
 msgstr "Многоплодие"
 
-#: src/helpers/hooks/useQuestions.ts:47
+#: src/helpers/hooks/useQuestions.tsx:53
 msgid "Многоплодие с массой плодов в сумме"
 msgstr "Многоплодие с массой плодов в сумме"
 
-#: src/helpers/hooks/useQuestions.ts:76
+#: src/helpers/hooks/useQuestions.tsx:82
 msgid "Многорожавшие"
 msgstr "Многорожавшие"
 
-#: src/helpers/hooks/useQuestions.ts:97
+#: src/helpers/hooks/useQuestions.tsx:103
 msgid "Множественные узлы более 5см или после кесарева сечения"
 msgstr "Множественные узлы более 5см или после кесарева сечения"
 
-#: src/helpers/hooks/useQuestions.ts:122
+#: src/helpers/hooks/useQuestions.tsx:128
 msgid "Не прогрессирующая"
 msgstr "Не прогрессирующая"
 
@@ -307,16 +324,16 @@ msgstr "Не прогрессирующая"
 msgid "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
 msgstr "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
 
-#: src/helpers/hooks/useQuestions.ts:39
-#: src/helpers/hooks/useQuestions.ts:85
-#: src/helpers/hooks/useQuestions.ts:95
-#: src/helpers/hooks/useQuestions.ts:104
-#: src/helpers/hooks/useQuestions.ts:131
-#: src/helpers/hooks/useQuestions.ts:197
+#: src/helpers/hooks/useQuestions.tsx:45
+#: src/helpers/hooks/useQuestions.tsx:91
+#: src/helpers/hooks/useQuestions.tsx:101
+#: src/helpers/hooks/useQuestions.tsx:110
+#: src/helpers/hooks/useQuestions.tsx:137
+#: src/helpers/hooks/useQuestions.tsx:203
 msgid "Нет"
 msgstr "Нет"
 
-#: src/helpers/hooks/useQuestions.ts:141
+#: src/helpers/hooks/useQuestions.tsx:147
 msgid "Нет, либо бессимптомная бактериурия"
 msgstr "Нет, либо бессимптомная бактериурия"
 
@@ -325,7 +342,7 @@ msgstr "Нет, либо бессимптомная бактериурия"
 msgid "Низкая степень риска акушерского кровотечения"
 msgstr "Низкая степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useQuestions.ts:181
+#: src/helpers/hooks/useQuestions.tsx:187
 msgid "Норма"
 msgstr "Норма"
 
@@ -333,48 +350,48 @@ msgstr "Норма"
 msgid "Обратиться к специалисту"
 msgstr "Обратиться к специалисту"
 
-#: src/helpers/hooks/useQuestions.ts:67
+#: src/helpers/hooks/useQuestions.tsx:73
 msgid "Объем жидкости"
 msgstr "Объем жидкости"
 
-#: src/helpers/hooks/useQuestions.ts:168
+#: src/helpers/hooks/useQuestions.tsx:174
 msgid "Объем тромбоцитов"
 msgstr "Объем тромбоцитов"
 
-#: src/helpers/hooks/useQuestions.ts:153
+#: src/helpers/hooks/useQuestions.tsx:159
 msgid "Острый эндометрит"
 msgstr "Острый эндометрит"
 
-#: src/helpers/hooks/useQuestions.ts:70
+#: src/helpers/hooks/useQuestions.tsx:76
 msgid "От 1500 до 2000 мл"
 msgstr "От 1500 до 2000 мл"
 
-#: src/helpers/hooks/useQuestions.ts:29
+#: src/helpers/hooks/useQuestions.tsx:34
 msgid "от 18,5 до 25 кг/м²"
 msgstr "от 18,5 до 25 кг/м²"
 
-#: src/helpers/hooks/useQuestions.ts:30
+#: src/helpers/hooks/useQuestions.tsx:35
 msgid "от 25 до 30 кг/м²"
 msgstr "от 25 до 30 кг/м²"
 
-#: src/helpers/hooks/useQuestions.ts:78
+#: src/helpers/hooks/useQuestions.tsx:84
 msgid "От 3 до 4 родов"
 msgstr "От 3 до 4 родов"
 
-#: src/helpers/hooks/useQuestions.ts:60
+#: src/helpers/hooks/useQuestions.tsx:66
 msgid "От 4000 до 4500 грамм"
 msgstr "От 4000 до 4500 грамм"
 
-#: src/helpers/hooks/useQuestions.ts:50
+#: src/helpers/hooks/useQuestions.tsx:56
 msgid "От 4500 до 5000 грамм"
 msgstr "От 4500 до 5000 грамм"
 
-#: src/helpers/hooks/useQuestions.ts:121
+#: src/helpers/hooks/useQuestions.tsx:127
 msgid "Отсутствует"
 msgstr "Отсутствует"
 
-#: src/helpers/hooks/useQuestions.ts:111
-#: src/helpers/hooks/useQuestions.ts:151
+#: src/helpers/hooks/useQuestions.tsx:117
+#: src/helpers/hooks/useQuestions.tsx:157
 msgid "Отсутствуют"
 msgstr "Отсутствуют"
 
@@ -382,31 +399,31 @@ msgstr "Отсутствуют"
 msgid "Пациент"
 msgstr "Пациент"
 
-#: src/helpers/hooks/useQuestions.ts:158
+#: src/helpers/hooks/useQuestions.tsx:164
 msgid "Перенесенная вирусная инфекция дыхательных путей"
 msgstr "Перенесенная вирусная инфекция дыхательных путей"
 
-#: src/helpers/hooks/useQuestions.ts:118
+#: src/helpers/hooks/useQuestions.tsx:124
 msgid "ПОНРП"
 msgstr "ПОНРП"
 
-#: src/helpers/hooks/useQuestions.ts:119
+#: src/helpers/hooks/useQuestions.tsx:125
 msgid "Преждевременная отслойка нормально расположенной плаценты. преждевременное (до рождения ребенка) отделение плаценты от стенки матки во время беременности или в I - II периодах родов"
 msgstr "Преждевременная отслойка нормально расположенной плаценты. преждевременное (до рождения ребенка) отделение плаценты от стенки матки во время беременности или в I - II периодах родов"
 
-#: src/helpers/hooks/useQuestions.ts:103
+#: src/helpers/hooks/useQuestions.tsx:109
 msgid "Преждевременные роды это родовая деятельность, которая началась на сроке беременности от 22 недель до 36 недель и 6 дней"
 msgstr "Преждевременные роды это родовая деятельность, которая началась на сроке беременности от 22 недель до 36 недель и 6 дней"
 
-#: src/helpers/hooks/useQuestions.ts:87
+#: src/helpers/hooks/useQuestions.tsx:93
 msgid "При последних родах"
 msgstr "При последних родах"
 
-#: src/helpers/hooks/useQuestions.ts:86
+#: src/helpers/hooks/useQuestions.tsx:92
 msgid "При предыдущих беременностях"
 msgstr "При предыдущих беременностях"
 
-#: src/helpers/hooks/useQuestions.ts:123
+#: src/helpers/hooks/useQuestions.tsx:129
 msgid "Прогрессирующая"
 msgstr "Прогрессирующая"
 
@@ -419,32 +436,45 @@ msgstr "Пройти заново"
 msgid "Результат"
 msgstr "Результат"
 
-#: src/helpers/hooks/useQuestions.ts:199
+#: src/components/BmiCalculator.tsx:56
+msgid "Результат:"
+msgstr "Результат:"
+
+#: src/components/BmiCalculator.tsx:15
+#: src/components/BmiCalculator.tsx:21
+msgid "Рост (см)"
+msgstr "Рост (см)"
+
+#: src/helpers/hooks/useQuestions.tsx:205
 msgid "С нарушением кровообращения"
 msgstr "С нарушением кровообращения"
 
-#: src/helpers/hooks/useQuestions.ts:133
-#: src/helpers/hooks/useQuestions.ts:143
+#: src/helpers/hooks/useQuestions.tsx:139
+#: src/helpers/hooks/useQuestions.tsx:149
 msgid "С нарушением функции"
 msgstr "С нарушением функции"
 
-#: src/helpers/hooks/useQuestions.ts:163
+#: src/helpers/hooks/useQuestions.tsx:169
 msgid "С признаками  выраженной эндотелиальной дисфункции"
 msgstr "С признаками  выраженной эндотелиальной дисфункции"
 
-#: src/helpers/hooks/useQuestions.ts:162
+#: src/helpers/hooks/useQuestions.tsx:168
 msgid "С признаками эндотелиальной дисфункции легкой степени"
 msgstr "С признаками эндотелиальной дисфункции легкой степени"
 
-#: src/helpers/hooks/useQuestions.ts:11
+#: src/helpers/hooks/useQuestions.tsx:12
 msgid "Сколько вам полных лет?"
 msgstr "Сколько вам полных лет?"
+
+#: src/helpers/hooks/useQuestions.tsx:13
+msgid "Сколько пациенту полных лет?"
+msgstr "Сколько пациенту полных лет?"
 
 #: src/pages/Result.tsx:50
 msgid "Сохранить и отправить"
 msgstr "Сохранить и отправить"
 
-#: src/helpers/hooks/useQuestions.ts:113
+#: src/helpers/hooks/useQuestions.tsx:119
 msgid "Средней или тяжелой степени"
 msgstr "Средней или тяжелой степени"
 
@@ -452,7 +482,7 @@ msgstr "Средней или тяжелой степени"
 msgid "Средняя степень риска акушерского кровотечения"
 msgstr "Средняя степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useQuestions.ts:12
+#: src/helpers/hooks/useQuestions.tsx:14
 msgid "Старше 35 лет"
 msgstr "Старше 35 лет"
 
@@ -460,11 +490,11 @@ msgstr "Старше 35 лет"
 msgid "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
 msgstr "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
 
-#: src/helpers/hooks/useQuestions.ts:188
+#: src/helpers/hooks/useQuestions.tsx:194
 msgid "Фибриноген"
 msgstr "Фибриноген"
 
-#: src/helpers/hooks/useQuestions.ts:152
+#: src/helpers/hooks/useQuestions.tsx:158
 msgid "Хронический эндометрит"
 msgstr "Хронический эндометрит"
 
