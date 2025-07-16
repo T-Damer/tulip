@@ -11,7 +11,7 @@ export default function BmiCalculator() {
   return (
     <div className="flex flex-col gap-1">
       <fieldset className="fieldset">
-        <legend className="fieldset-legend">
+        <legend className="fieldset-legend text-black">
           <Trans>Рост (см)</Trans>
         </legend>
         <input
@@ -32,7 +32,7 @@ export default function BmiCalculator() {
       </fieldset>
 
       <fieldset className="fieldset">
-        <legend className="fieldset-legend">
+        <legend className="fieldset-legend text-black">
           <Trans>Вес (кг)</Trans>
         </legend>
         <input
@@ -52,7 +52,7 @@ export default function BmiCalculator() {
         />
       </fieldset>
 
-      <p>
+      <p className="text-black">
         <Trans>Результат:</Trans> {result}
       </p>
     </div>
