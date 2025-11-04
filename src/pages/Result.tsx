@@ -24,7 +24,7 @@ export default function ResultPage() {
       <div className="mx-2 flex h-5/6 w-full max-w-prose flex-col gap-y-3 overflow-y-scroll rounded-md bg-white p-8 text-black">
         <h1 className="font-black text-2xl">{t`Результат`}</h1>
         <h2 className="font-bold text-lg">{result.title}</h2>
-        <p>{result.description}</p>
+        <p>{isDoc ? result.docDescription : result.description}</p>
 
         {isDoc ? (
           <>
