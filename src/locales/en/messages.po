@@ -65,7 +65,7 @@ msgstr "A condition in which the body weight of a newborn significantly exceeds 
 
 #: src/helpers/hooks/useQuestions.tsx:108
 msgid "Аборты или преждевременные роды"
-msgstr "Аборты или преждевременные роды"
+msgstr "Abortion or premature birth"
 
 #: src/helpers/hooks/useQuestions.tsx:108
 #~ msgid "Аборты или преждевременные роды в анамнезе"
@@ -284,7 +284,7 @@ msgstr "What is the patient's body mass index?"
 
 #: src/helpers/hooks/useQuestions.tsx:175
 msgid "Клеток на литр крови в анализе крови"
-msgstr "Клеток на литр крови в анализе крови"
+msgstr "Cells per liter of blood in blood analysis"
 
 #: src/helpers/hooks/useQuestions.tsx:83
 #~ msgid "Количество родов"
@@ -426,7 +426,7 @@ msgstr "Low risk of obstetric hemorrhage"
 
 #: src/helpers/hooks/useQuestions.tsx:187
 msgid "Норма - 20-25 секунд и 14-20 секунд (у беременных) "
-msgstr "The norm is 20-25 seconds and 14-20 seconds (in pregnant women)"
+msgstr "The norm is 20-25 seconds and 14-20 seconds (for pregnant women)"
 
 #: src/pages/Result.tsx:56
 msgid "Обратиться к специалисту"
@@ -442,7 +442,7 @@ msgstr "Consult a specialist"
 
 #: src/helpers/hooks/useQuestions.tsx:174
 msgid "Объем тромбоцитов (MPV)"
-msgstr "Объем тромбоцитов (MPV)"
+msgstr "Volume of platelets (MPV)"
 
 #: src/helpers/hooks/useQuestions.tsx:159
 msgid "Острый эндометрит"
