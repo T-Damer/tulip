@@ -2,7 +2,7 @@ import { LinguiConfig } from '@lingui/conf'
 
 const config: LinguiConfig = {
   locales: ['en', 'ru', 'uz'],
-  sourceLocale: 'en',
+  sourceLocale: 'ru',
   catalogs: [
     {
       path: '<rootDir>/src/locales/{locale}/messages',
